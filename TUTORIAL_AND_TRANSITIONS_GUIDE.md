@@ -104,40 +104,40 @@ Use this decision matrix to map every sentence in your script to the exact visua
 
 ---
 
-## PART IV: VOLUME 3 HEAVY & COMPLEX EDITION — ZERO BLACK BACKGROUNDS (`src/components/blinkit/FeaturedTransitionsVol3Heavy.tsx`)
+## PART IV: VOLUME 3 MINIMALIST + HEAVY MATHEMATICAL PHYSICS EDITION — ZERO BLACK BACKGROUNDS (`src/components/blinkit/FeaturedTransitionsVol3Heavy.tsx`)
 
-### Strict Non-Black Background Palette Mandate
-Never use flat `#000000` (`bg-black` / `bg-zinc-950`) backgrounds. Always rotate across these **6 tactile studio palettes**:
-1. **Warm Sunlit Sandstone & Drafting Alabaster**: `radial-gradient(circle at 45% 35%, #FAF6EE 0%, #EDE4D3 55%, #D8CBB5 100%)` + 48px millimeter grid + diagonal sunlit caustic rays.
-2. **Engineering Cobalt-Cyan Blueprint**: `radial-gradient(circle at 50% 45%, #235396 0%, #163768 60%, #0E2446 100%)` + 40px cyan CAD grid.
-3. **Vox Mustard-Gold Architectural Grid**: `radial-gradient(circle at 50% 50%, #FACC15 0%, #EAB308 65%, #CA8A04 100%)` + 64px white architectural grid lines.
-4. **Financial Times Salmon-Cream Parchment**: `radial-gradient(circle at 40% 30%, #FDF6EC 0%, #F4E4CE 60%, #E6CFAF 100%)`.
-5. **Abdy-Studio / Vox Pastel Sky-Blue Daylight**: `radial-gradient(circle at 50% 45%, #F0F9FF 0%, #D8EEFE 55%, #B6DDFB 100%)`.
-6. **Museum Sage-Limestone $\rightarrow$ Sunlit Terracotta**: `#F1F5EF -> #C7D3C3` wiping into `#FFFDF9 -> #F2D8B5`.
+### Strict Minimalist Main-Theme & Non-Black Palette Mandate
+Never use flat `#000000` (`bg-black`) or cluttered multi-box dashboards. True minimalist sophistication comes from **one hero mathematical rig at `(960, 540)`** with **24-layer 45° volumetric shadows**, **orbital spiral convergence**, **Gaussian wave deformation**, **CAD wireframe letter construction**, and **coupled Bauhaus lever physics** across our signature studio canvases:
+1. **Warm Matte Studio Putty**: `radial-gradient(circle at 50% 45%, #ECEAE5 0%, #DFDCD5 58%, #CCC8BF 100%)`
+2. **Deep Petrol-Sapphire Horizon**: `radial-gradient(circle at 50% 35%, #123E5C 0%, #0A2538 55%, #061826 100%)` (rich midnight teal, zero black!)
+3. **Warm Studio Alabaster & Cream**: `radial-gradient(circle at 50% 45%, #FAF8F2 0%, #ECE6DA 60%, #DCD4C4 100%)`
+4. **Soft Matte Graphite Slate**: `radial-gradient(circle at 50% 45%, #2B2D33 0%, #1F2025 100%)`
 
-### 14. 5-Plane True 3D Multiplane Parallax Camera Rig + Pink Object Tracker (`Heavy5Layer3DParallaxCameraRig`)
-**Reference**: *DeVisuals (`1uhGRj_wa9s` — 2026 3D Parallax Rig) & Vox 2026 Reel (`aCn_jxFuKc8` Panels 1, 6, 14, 15)*
-- **5 Distinct Z-Depth Planes** inside `transform-style: preserve-3d` driven by a 6-DOF virtual camera (`translate3d(camX, camY, camZ) rotateX/Y/Z`):
-  - `Z = -480px`: Rotating compass rose & 16-bar architectural skyline (`blur(2.5px)`).
-  - `Z = -220px`: Archival typewriter clipping with yellow marker sweep + red-ink oval & red-X strike-through (`Supermarket Delivery`), paired with BSE merger filing.
-  - `Z = 0px`: Hero framed cutout with 3D blue/pink corner orbs and a **Pink Motion-Tracking Bounding Box (`TRK_ID: CEO_01`)** that locks onto the portrait.
-  - `Z = +150px`: Foreground frosted-glass telemetry (`₹37,779 Cr +124% YoY`) and a Vox rolling red counter badge (`916,600,000+ ANNUAL ORDERS`).
-  - `Z = +310px`: Near-camera out-of-focus framing brackets (`blur(4px)`).
+### 14. Orbital Letter Convergence + 45° Volumetric Long Shadows (`MinimalOrbitalLetterConvergenceRig`)
+**Reference**: *Motion Nations (`HPWzLpHdBJg` — Minimal Circle Motion Graphics Text Animation)*
+- 4 concentric hairline rings (`r = 145, 225, 310, 395`) draw in via `strokeDashoffset` with orbiting black, Blinkit-gold (`#F8CB46`), and Zomato-crimson (`#E23744`) satellite dots casting 14-step 45° volumetric long shadows.
+- Each character of `BLINKIT` / `EMPIRE` starts scattered on a circular orbit at angle $\theta_i(0)$ and spirals inward via `springODE(dt, 15, 0.72)` to lock into two centered rows at `(960, 498)` and `(960, 586)` with 24-layer 45° volumetric `textShadow`.
 
-### 15. 4-Tier 3D Isometric Exploded CAD Stack (`HeavyIsometricExplodedArchitectureRig`)
-- 4 stacked isometric slabs (`perspective(1300px) rotateX(60deg) rotateZ(rotZ)`) that separate vertically in 3D Z-space (`zExpanded = -195px .. +225px`), linked by 4 vertical laser conduits and 2D screen-space orthographic callout cards.
+### 15. Deforming Gaussian Wave Horizon & Rolling Sphere (`MinimalDeformingWaveBallRig`)
+**Reference**: *Motion Nations (`pQXoGGpCYeg` — Minimal Line Motion Graphics Text Animation)*
+- A continuous horizontal spline across $x \in [0, 1920]$ dynamically deforms beneath the rolling sphere at $x_{\text{ball}}(t)$:
+  \[
+  y(x, t) = 615 + 86 \cdot e^{-\frac{(x - x_{\text{ball}})^2}{2 \cdot 235^2}} \sin\!\left(\frac{x - x_{\text{ball}}}{135} - 2.2t\right)
+  \]
+- Kinetic words (`"What matters most is 10-minute consistency at scale."`) pop along the travelling wave crest ahead of the rolling sphere before a radial circle iris flips into Warm Studio Alabaster.
 
-### 16. Vox Mustard Grid Dictionary Card $\rightarrow$ 12-Louver Flip $\rightarrow$ 3D Stacked Proofs (`HeavyEditorialMustardGridStackedProofRig`)
-**Reference**: *Vox 2026 Reel (`aCn_jxFuKc8` Panels 7, 8, 11)*
-- **Phase A**: Mustard-Gold architectural grid with a Vox Dictionary/Etymology card (`dark store /ˈdɑːrk ˌstɔːr/ · noun`).
-- **Phase B**: 12 vertical Venetian louver columns (`<clipPath id="venetianLouverClip">`) expand with a wave delay (`c * 0.045s`) into a Cool Silver Studio hosting 3 stacked 3D-tilted institutional proof cards with cascading yellow, mint, and amber marker sweeps.
+### 16. Capsule Long-Shadow Scanner $\rightarrow$ Architectural CAD Wireframe Construct (`MinimalCapsuleLongShadowScannerRig`)
+**Reference**: *Motion Nations (`BrYQhw8WmIM` — Minimal Shape Text Animation #2)*
+- **Phase A (`0.0s – 1.95s`)**: A vertical rounded capsule ring (`#E23744`, `62x230px`) with a 26-layer 45° volumetric shadow trail sweeps horizontally from `x = 610` to `1310`, acting as a spatial clip-mask (`clipPath: inset(...)`) that unmasks `BLINKIT` with 32-layer 45° volumetric letter shadows.
+- **Phase B (`1.95s – 4.0s`)**: Each character of `BLINKIT` / `ETERNAL` is constructed inside a geometric CAD wireframe box (outer square + diagonal `X` construction lines + inscribed circle via `strokeDashoffset`) before solid ink typography flood-fills inside.
 
-### 17. Quantitative Cubic-Bezier Sankey Flow + 6-Axis Polar Radar + Waterfall (`HeavyQuantitativeSankeyAndRadarRig`)
-- Combines a multi-stream variable-width Cubic-Bezier Sankey diagram (`CORE GOV ₹37,779Cr` + `SEARCH ADS ₹1,850Cr`), a 6-axis polar spider radar polygon (`Blinkit` vs. `Zepto`), and a 14-quarter EBITDA contribution waterfall on Financial Times Salmon Parchment.
+### 17. Sine-Wave Bouncing Polygons Morphing Into Letters (`MinimalPolygonWaveToLetterMorphRig`)
+**Reference**: *Motion Nations (`CDc1d-8x8lQ` — Minimal Shape Text Animation #1)*
+- Each character travels along a damped sine-wave rollercoaster $y_k(p) = -\sin(2\pi p) \cdot 135 \cdot (1 - p)^{1.35}$ starting as a rotating geometric primitive (Pentagon, Triangle, Square, Hexagon, Diamond, Circle) and morphing at the wave apex ($p = 0.42$) directly into the corresponding letter, followed by a horizontal split wipe from Soft Graphite (`#2B2D33`) to Warm Studio Ivory (`#F4F2ED`).
 
-### 18. Real-Time 3D Orthographic Geodesic Globe + Dynamic City Tethers + Waveform (`Heavy3DGlobeAndOrbitalNetworkRig`)
-**Reference**: *Abdy Studio (`zpyj1iiXnXY` — Edit Like Vox)*
-- Computes real-time spherical-to-orthographic 3D projection $(x, y, z)$ for latitude/longitude graticules and Indian city hubs as `(centerLat, centerLon)` rotates, dynamically tethering each city to frosted-acrylic callout cards above a live 45-bar oscilloscope waveform spine.
+### 18. Coupled Bauhaus See-Saw Lever Physics & Split-Hemisphere Tunnel (`MinimalBauhausPendulumAndSeeSawRig`)
+**Reference**: *Ordinary Folk (`EFdAOiNXUKY` — Showreel Breakdown)*
+- A falling split-hemisphere sphere impacts a pivoting balance beam (`rotate(-22deg -> +22deg)`), rolling down the incline and triggering a concentric counter-rotating Split-Hemisphere Circle Tunnel (`#18181B` / `#F8CB46`) that reveals the central `blinkit · 46%` lockup.
 
-### 19. Swiss International Kinetic Grid + Concentric Mechanical Iris (`HeavyKineticTypographyAndMechanicalIrisRig`)
-- 12-column Swiss modular poster grid on Museum Sage-Limestone with masked kinetic typography and a counter-rotating vernier compass, wiped by a radial mechanical iris into Sunlit Terracotta Parchment with 3D-extruded brand pedestals.
+### 19. 17-Sphere Harmonic Pendulum Phase Wave $\rightarrow$ Plucked Elastic Guitar String (`MinimalElasticPendulumWaveAndRibbonRig`)
+- 17 minimalist spheres suspended on hairline vertical threads oscillate at linearly graded frequencies $\omega_k = 3.2 + 0.38k$ (forming a travelling pendulum wave helix) before snapping into a horizontal elastic string at $y = 540\text{ px}$ that plucks ($110 e^{-3.8t}\cos(22t)\sin(\pi x/L)$) to unmask `₹37,779 CRORE` above and `916.6M ORDERS · 10-MINUTE PRECISION` below.

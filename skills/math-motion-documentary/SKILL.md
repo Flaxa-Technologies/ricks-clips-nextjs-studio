@@ -846,19 +846,20 @@ Import and weave these **7 reusable, deterministic transition and motion rigs** 
 
 ---
 
-## 25. Volume 3 Heavy & Complex Rigs — Zero Black Backgrounds (`resources/FeaturedTransitionsVol3Heavy.tsx`)
+## 25. Volume 3 Minimalist + Heavy Mathematical Physics Rigs — Zero Black Backgrounds (`resources/FeaturedTransitionsVol3Heavy.tsx`)
 
-Never use flat pure-black (`#000000` / `bg-black`) backgrounds. Deploy these **6 heavy, multi-layered documentary rigs** built on rich sunlit editorial, blueprint, and parchment studio canvases (`/?showcase=3`):
+Directly modeled after Motion Nations & Ordinary Folk minimal geometric masterclasses (`HPWzLpHdBJg`, `pQXoGGpCYeg`, `BrYQhw8WmIM`, `CDc1d-8x8lQ`, `EFdAOiNXUKY`). Zero cluttered dashboards, zero black backgrounds (`/?showcase=3`):
 
-14. **`Heavy5Layer3DParallaxCameraRig` (5-Plane True 3D Multiplane Camera Dolly + Pink Object Tracker on Warm Sunlit Sandstone `#FAF6EE -> #D8CBB5`)**
-    - 5 independent Z-planes (`Z = -480px` architectural skyline & compass rose, `Z = -220px` archival typewriter clippings with yellow sweep & red-X strike-through, `Z = 0px` framed hero portrait with pink motion-tracking bounding box `TRK_ID: CEO_01` & corner 3D gradient spheres, `Z = +150px` frosted-glass telemetry & rolling red order counter, `Z = +310px` out-of-focus foreground framing brackets) under a 6-DOF virtual camera (`translate3d + rotateX/Y/Z`).
-15. **`HeavyIsometricExplodedArchitectureRig` (4-Tier 3D Isometric Exploded CAD Stack on Engineering Cobalt-Cyan Blueprint `#235396 -> #0E2446`)**
-    - 4 isometric architectural slabs (`rotateX(60deg) rotateZ(rotZ)`) that separate vertically along the 3D Z-axis (`zExpanded = -195px .. +225px`), linked by glowing vertical laser conduits and 2D screen-space orthographic callout cards.
-16. **`HeavyEditorialMustardGridStackedProofRig` (Vox Mustard-Gold Grid `#FACC15` Dictionary Card $\rightarrow$ 12-Louver 3D Flip $\rightarrow$ Cool Silver Studio `#E2E8F0` Stacked Proofs)**
-    - Starts on a vibrant Mustard-Gold architectural millimeter grid with a Vox Dictionary/Etymology card (`dark store /ˈdɑːrk ˌstɔːr/ · noun`), then wipes via a 12-column sinusoidal Venetian louver clip-path into 3D-tilted stacked analyst/shareholder proof cards with cascading multi-color highlighter sweeps.
-17. **`HeavyQuantitativeSankeyAndRadarRig` (Multi-Stream Cubic-Bezier Sankey Flow + 6-Axis Polar Spider Radar + 14-Bar Waterfall on Financial Times Salmon Parchment `#FDF6EC -> #E6CFAF`)**
-    - Institutional quantitative dashboard combining variable-width cubic-bezier Sankey capital allocation ribbons, a 6-axis polar radar polygon (`Blinkit` vs. `Zepto`), and a 14-quarter contribution waterfall chart.
-18. **`Heavy3DGlobeAndOrbitalNetworkRig` (Real-Time Spherical-to-Orthographic 3D Geodesic Globe + Dynamic City Tethers + Waveform Spine on Pastel Sky-Blue Studio `#F0F9FF -> #B6DDFB`)**
-    - Computes real-time 3D orthographic spherical projection $(X, Y, Z)$ for latitude/longitude graticules and Indian city hubs, tethering each spinning city node to floating frosted-acrylic cards via dynamic elbow leader lines above a live 45-bar oscilloscope waveform spine.
-19. **`HeavyKineticTypographyAndMechanicalIrisRig` (Swiss International Kinetic Grid on Museum Sage-Limestone `#F1F5EF -> #C7D3C3` $\rightarrow$ Concentric Mechanical Iris into Sunlit Terracotta `#FFFDF9 -> #F2D8B5`)**
-    - 12-column Swiss modular grid with masked multi-line kinetic typography, counter-rotating mechanical vernier rings, and a 12fps cutout strip, expanding via a radial iris into 3D-extruded beveled brand pedestals.
+14. **`MinimalOrbitalLetterConvergenceRig` (Motion Nations `HPWzLpHdBJg` — Concentric Hairline Orbits + 45° Volumetric Long-Shadow Spiral Convergence)**
+    - Warm Studio Putty canvas (`#ECEAE5 -> #CCC8BF`) with 4 concentric hairline rings and orbiting black/gold/crimson satellite dots casting 20-layer 45° volumetric shadows. Individual letters start scattered along the circular orbits at tilted tangent angles and spiral inward via `springODE(dt, 15, 0.72)` to lock into two centered rows (`BLINKIT` / `EMPIRE`).
+15. **`MinimalDeformingWaveBallRig` (Motion Nations `pQXoGGpCYeg` — Rolling Sphere on Real-Time Gaussian Deforming Wave Horizon)**
+    - Deep Petrol-Sapphire Teal canvas (`#123E5C -> #061826`, zero black!) where a continuous horizontal spline dynamically deforms into a travelling Gaussian cosine hill & valley (`y(x,t) = 615 + A * exp(-(x - ballX)^2 / 2σ^2) * sin(...)`) beneath a rolling pure-white sphere while kinetic words pop along the wave crest.
+16. **`MinimalCapsuleLongShadowScannerRig` (Motion Nations `BrYQhw8WmIM` — Capsule Long-Shadow Scanner $\rightarrow$ Architectural CAD Wireframe Construct)**
+    - Phase A: A vertical rounded capsule ring (`#E23744`) with a 26-layer 45° volumetric shadow trail sweeps across `(960, 540)` to laser-unmask `BLINKIT` with matching 32-layer 45° volumetric letter shadows.
+    - Phase B: Each letter of `BLINKIT` / `ETERNAL` is constructed inside a geometric CAD wireframe box (outer square + diagonal `X` construction lines + inscribed circle via `strokeDashoffset`) before solid ink typography flood-fills inside.
+17. **`MinimalPolygonWaveToLetterMorphRig` (Motion Nations `CDc1d-8x8lQ` — Sine-Wave Bouncing Polygons Morphing Into Letters + World Flip)**
+    - Each character travels along a damped sine-wave rollercoaster (`-sin(2πp) * 135 * (1-p)^1.35`) starting as a rotating geometric primitive (Pentagon, Triangle, Square, Hexagon, Diamond, Circle) and morphing at the wave apex (`p = 0.42`) directly into the corresponding letter, followed by a horizontal split wipe from Soft Graphite (`#2B2D33`) to Warm Ivory (`#F4F2ED`).
+18. **`MinimalBauhausPendulumAndSeeSawRig` (Ordinary Folk `EFdAOiNXUKY` — Coupled Bauhaus See-Saw Lever Physics & Split-Hemisphere Tunnel)**
+    - Warm Bauhaus Putty canvas (`#F5F3EE -> #D4CFC3`) where a falling matte-charcoal/gold sphere impacts a pivoting balance beam (`rotate(-22deg -> +22deg)`), rolling down the incline and triggering a concentric counter-rotating Split-Hemisphere Circle Tunnel.
+19. **`MinimalElasticPendulumWaveAndRibbonRig` (17-Sphere Harmonic Pendulum Phase Wave $\rightarrow$ Plucked Elastic Guitar String Reveal)**
+    - Warm Studio Cream canvas (`#FAF8F2 -> #DCD4C4`) where 17 minimalist spheres oscillate at linearly graded frequencies (`ω_k = 3.2 + 0.38k`) before snapping into a horizontal elastic string that plucks (`110 * e^-3.8t * cos(22t) * sin(πx/L)`) to reveal `₹37,779 CRORE`.
