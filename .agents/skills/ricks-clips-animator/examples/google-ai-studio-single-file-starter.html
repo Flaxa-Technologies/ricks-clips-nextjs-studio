@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>@RicksClips3000 — Google AI Studio Deterministic 3D + 2.5D Shorts Starter</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #090d16;
+      color: #f8fafc;
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px;
+      gap: 12px;
+    }
+    .stage-wrap {
+      position: relative;
+      width: 360px;
+      height: 640px;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 2px solid #334155;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+    }
+    .hud-bar {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      right: 12px;
+      background: rgba(15, 23, 42, 0.88);
+      border: 1px solid rgba(56, 189, 248, 0.45);
+      border-radius: 10px;
+      padding: 8px 12px;
+      font-family: monospace;
+      font-size: 12px;
+      color: #38bdf8;
+      pointer-events: none;
+    }
+    .caption-layer {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 70.5%;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: center;
+      pointer-events: none;
+    }
+    .caption-word {
+      font-weight: 900;
+      font-size: 38px;
+      color: #fef08a;
+      -webkit-text-stroke: 6px #141418;
+      paint-order: stroke fill;
+      text-shadow: 0 4px 0 #000;
+    }
+    .controls {
+      width: 360px;
+      background: #111827;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .btn-row { display: flex; gap: 6px; justify-content: space-between; }
+    button {
+      background: #1e293b;
+      color: #f8fafc;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button.primary { background: #f59e0b; color: #090d16; border-color: #f59e0b; }
+  </style>
+</head>
+<body>
+  <div class="stage-wrap" id="viewport">
+    <div class="hud-bar" id="hudText">FRAME 000/300 | 0.00s | 30 FPS</div>
+    <div class="caption-layer">
+      <span class="caption-word" id="subWord">He sawed</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <input type="range" id="scrubber" min="0" max="299" value="0" style="width:100%" />
+    <div class="btn-row">
+      <button onclick="step(-10)">-10f</button>
+      <button onclick="step(-1)">-1f</button>
+      <button class="primary" id="playBtn" onclick="togglePlay()">Pause</button>
+      <button onclick="step(1)">+1f</button>
+      <button onclick="step(10)">+10f</button>
+    </div>
+  </div>
+
+  <script>
+    // =========================================================================
+    // 1. DETERMINISTIC MATHEMATICAL PRIMITIVES (30 FPS, 300 FRAMES)
+    // =========================================================================
+    const FPS = 30;
+    const TOTAL_FRAMES = 300;
+    const lerp = (a, b, t) => a + (b - a) * Math.max(0, Math.min(1, t));
+    const S3 = (u) => { const c = Math.max(0, Math.min(1, u)); return c * c * (3 - 2 * c); };
+
+    const SUBTITLES = [
+      [0, 11, "He sawed"], [12, 26, "gaps"], [27, 37, "into a"], [38, 50, "railroad"],
+      [51, 76, "every 39"], [77, 96, "feet."], [97, 111, "You see,"], [112, 132, "two companies"],
+      [133, 151, "are racing"], [152, 181, "to build"], [182, 204, "a canyon"], [205, 219, "so deep"],
+      [220, 241, "you can't"], [242, 253, "see bottom."], [254, 283, "Whoever finishes"], [284, 299, "gets it all!"]
+    ];
+
+    // =========================================================================
+    // 2. THREE.JS 9:16 VERTICAL SCENE + 2.5D BILLBOARD RIG
+    // =========================================================================
+    const container = document.getElementById('viewport');
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color('#7c2d12');
+    scene.fog = new THREE.Fog('#7c2d12', 12, 42);
+
+    const camera = new THREE.PerspectiveCamera(48, 360 / 640, 0.1, 100);
+    const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+    renderer.setSize(360, 640);
+    container.insertBefore(renderer.domElement, container.firstChild);
+
+    scene.add(new THREE.AmbientLight('#fff7ed', 0.85));
+    const sun = new THREE.DirectionalLight('#ffedd5', 1.6);
+    sun.position.set(8, 16, 10);
+    scene.add(sun);
+
+    // 3D Railroad Bed & Steel Rails
+    const bed = new THREE.Mesh(
+      new THREE.BoxGeometry(2.4, 0.1, 40),
+      new THREE.MeshToonMaterial({ color: '#78716c' })
+    );
+    scene.add(bed);
+
+    const leftRail = new THREE.Mesh(
+      new THREE.BoxGeometry(0.08, 0.1, 40),
+      new THREE.MeshStandardMaterial({ color: '#d97706', metalness: 0.6, roughness: 0.3 })
+    );
+    leftRail.position.set(-0.56, 0.12, 0);
+    scene.add(leftRail);
+
+    // 2.5D Cartoon Character Group (Cylindrical Y-Billboard)
+    const charGroup = new THREE.Group();
+    charGroup.position.set(-0.52, 0, 1.2);
+    scene.add(charGroup);
+
+    const headCanvas = document.createElement('canvas');
+    headCanvas.width = 512; headCanvas.height = 512;
+    const headCtx = headCanvas.getContext('2d');
+    const headTex = new THREE.CanvasTexture(headCanvas);
+
+    const headMesh = new THREE.Mesh(
+      new THREE.PlaneGeometry(0.92, 0.92),
+      new THREE.MeshBasicMaterial({ map: headTex, transparent: true, side: THREE.DoubleSide })
+    );
+    headMesh.position.set(0, 1.36, 0.03);
+    charGroup.add(headMesh);
+
+    const torsoMesh = new THREE.Mesh(
+      new THREE.CapsuleGeometry(0.22, 0.32, 8, 16),
+      new THREE.MeshToonMaterial({ color: '#14b8a6' })
+    );
+    torsoMesh.position.set(0, 0.72, 0);
+    charGroup.add(torsoMesh);
+
+    function updateHeadCanvas(f) {
+      headCtx.clearRect(0, 0, 512, 512);
+      const cx = 256, cy = 285;
+      // White head + #231F20 14px outline
+      headCtx.fillStyle = '#fdfdfd';
+      headCtx.strokeStyle = '#231f20';
+      headCtx.lineWidth = 14;
+      headCtx.beginPath();
+      headCtx.ellipse(cx, cy, 138, 126, 0, 0, Math.PI * 2);
+      headCtx.fill();
+      headCtx.stroke();
+
+      // Eyes
+      headCtx.fillStyle = '#231f20';
+      headCtx.beginPath();
+      headCtx.arc(cx - 36, cy - 8, 13, 0, Math.PI * 2);
+      headCtx.arc(cx + 38, cy - 8, 13, 0, Math.PI * 2);
+      headCtx.fill();
+
+      // Lip-synced mouth (5 Hz oscillation)
+      headCtx.beginPath();
+      if (f % 6 < 3) {
+        headCtx.ellipse(cx, cy + 42, 24, 14, 0, 0, Math.PI * 2);
+        headCtx.fill();
+      } else {
+        headCtx.arc(cx, cy + 36, 22, 0.15, Math.PI - 0.15);
+        headCtx.stroke();
+      }
+      headTex.needsUpdate = true;
+    }
+
+    // =========================================================================
+    // 3. FRAME EVALUATOR LOOP
+    // =========================================================================
+    let frame = 0;
+    let playing = true;
+
+    function evaluateFrame(f) {
+      const t = S3((f % 60) / 59);
+      // Camera trajectory
+      if (f < 60) {
+        camera.position.set(lerp(0.42, 0.28, t), lerp(0.42, 0.52, t), lerp(3.85, 2.35, t));
+        camera.lookAt(-0.3, 0.7, -6.0);
+        camera.fov = lerp(50, 44, t);
+      } else {
+        const orbit = lerp(0.35, 2.95, t);
+        camera.position.set(-0.35 + Math.sin(orbit) * 2.5, lerp(0.75, 1.4, t), 1.2 + Math.cos(orbit) * 2.5);
+        camera.lookAt(-0.35, 0.9, 1.2);
+        camera.fov = 50;
+      }
+      camera.updateProjectionMatrix();
+
+      // Cylindrical Y-Axis Billboarding Law: theta_Y = atan2(camX - charX, camZ - charZ)
+      charGroup.rotation.y = Math.atan2(
+        camera.position.x - charGroup.position.x,
+        camera.position.z - charGroup.position.z
+      );
+
+      updateHeadCanvas(f);
+      renderer.render(scene, camera);
+
+      // Word-by-word pop spring scale
+      const sub = SUBTITLES.find(([s, e]) => f >= s && f <= e);
+      const subEl = document.getElementById('subWord');
+      if (sub) {
+        const lf = f - sub[0];
+        const pop = lf <= 2 ? lerp(0.86, 1.14, lf / 2) : lf <= 5 ? lerp(1.14, 1.0, (lf - 2) / 3) : 1.0;
+        subEl.textContent = sub[2];
+        subEl.style.transform = `scale(${pop})`;
+      }
+      document.getElementById('hudText').textContent =
+        `FRAME ${String(f).padStart(3, '0')}/300 | ${(f / FPS).toFixed(2)}s | CAM Z=${camera.position.z.toFixed(2)}m`;
+      document.getElementById('scrubber').value = f;
+    }
+
+    function step(df) {
+      playing = false;
+      document.getElementById('playBtn').textContent = 'Play';
+      frame = Math.max(0, Math.min(TOTAL_FRAMES - 1, frame + df));
+      evaluateFrame(frame);
+    }
+
+    function togglePlay() {
+      playing = !playing;
+      document.getElementById('playBtn').textContent = playing ? 'Pause' : 'Play';
+    }
+
+    document.getElementById('scrubber').addEventListener('input', (e) => {
+      playing = false;
+      document.getElementById('playBtn').textContent = 'Play';
+      frame = Number(e.target.value);
+      evaluateFrame(frame);
+    });
+
+    setInterval(() => {
+      if (playing) {
+        frame = (frame + 1) % TOTAL_FRAMES;
+        evaluateFrame(frame);
+      }
+    }, 1000 / FPS);
+
+    evaluateFrame(0);
+  </script>
+</body>
+</html>
