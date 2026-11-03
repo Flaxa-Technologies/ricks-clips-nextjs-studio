@@ -141,3 +141,31 @@ Never use flat `#000000` (`bg-black`) or cluttered multi-box dashboards. True mi
 
 ### 19. 17-Sphere Harmonic Pendulum Phase Wave $\rightarrow$ Plucked Elastic Guitar String (`MinimalElasticPendulumWaveAndRibbonRig`)
 - 17 minimalist spheres suspended on hairline vertical threads oscillate at linearly graded frequencies $\omega_k = 3.2 + 0.38k$ (forming a travelling pendulum wave helix) before snapping into a horizontal elastic string at $y = 540\text{ px}$ that plucks ($110 e^{-3.8t}\cos(22t)\sin(\pi x/L)$) to unmask `₹37,779 CRORE` above and `916.6M ORDERS · 10-MINUTE PRECISION` below.
+
+---
+
+### Volume 4 Minimalist + Heavy Mathematical Physics Edition II — ZERO Black Backgrounds (`FeaturedTransitionsVol4Minimal.tsx`)
+
+#### 20. `MinimalNewtonCradleMomentumRig` (5-Sphere Newton's Cradle Momentum Transfer + 45° Long Shadows)
+- **Non-Black Studio Palette**: Warm Studio Putty (`#EFECE6 -> #CDC9BF`).
+- 5 matte-charcoal and Blinkit-gold spheres transfer harmonic pendulum momentum across the chain (`leftAngle = -|cos(ωt)|` when $\cos(\omega t) > 0$, `rightAngle = +|cos(ωt)|` when $\cos(\omega t) < 0$), firing concentric contact shockwaves and impact-synced words (`ZERO FRICTION MOMENTUM.`).
+
+#### 21. `Minimal3DRibbonHelixCorkscrewRig` (True 3D Depth-Sorted Double-Helix Corkscrew Ribbon)
+- **Non-Black Studio Palette**: Deep Petrol-Sapphire (`#134263 -> #061826`, zero black!).
+- Two intertwined parametric 3D sine/cosine ribbons (`#F8CB46` Gold and `#38BDF8` Cyan) rendered in two Z-depth passes (`z < 0` behind `HYPERPURE DNA`, `z >= 0` in front of `HYPERPURE DNA`).
+
+#### 22. `MinimalMagneticGridRepulsionRig` (15×7 Magnetic Vector Pill Field + Travelling Sphere Repulsion)
+- **Non-Black Studio Palette**: Warm Studio Cream (`#FAF8F2 -> #D8D0C0`).
+- 105 rounded vector pills dynamically repel and rotate via Coulomb inverse-distance mathematics as a Blinkit-Gold sphere travels across $y = 540\text{ px}$, parting the center to reveal `2,243 DARK STORES`.
+
+#### 23. `MinimalOrigamiGeometricUnfoldRig` (Bauhaus 4-Step Hinged 3D Origami Swiss Cross Unfold)
+- **Non-Black Studio Palette**: Warm Bauhaus Putty (`#F4F2EC -> #D1CCC0`).
+- Central square unfolds 4 hinged 3D flaps (`rotateX(±180deg)`, `rotateY(±180deg)`) into a Swiss Cross (`SCAN / PACK / SEAL / SHIP`) around `85 SECONDS`.
+
+#### 24. `MinimalElasticBowstringLaunchRig` (Parabolic Tensioned Bowstring Slingshot Launch + Diagonal Slice)
+- **Non-Black Studio Palette**: Soft Matte Graphite (`#2D3038 -> #1A1C22`) $\rightarrow$ Warm Studio Cream (`#FAF8F2`).
+- Vertical quadratic-bezier string pulls back under tension, launches a Blinkit-Gold sphere at high velocity with damped string vibration, and triggers a diagonal razor slice into `HYPERVELOCITY`.
+
+#### 25. `MinimalConcentricDialVaultLockRig` (3-Ring Combination Vault Alignment + Horizontal Laser Split)
+- **Non-Black Studio Palette**: Warm Studio Alabaster (`#F4F1EA -> #D5CFC2`).
+- 3 counter-rotating notched vault rings snap into alignment at 12 o'clock (`0 deg`) and split apart horizontally to reveal `46% MARKET LEADER`.

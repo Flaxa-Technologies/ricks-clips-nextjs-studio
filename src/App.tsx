@@ -15,6 +15,7 @@ import { Documentary } from "./components/Documentary";
 import { TransitionsShowcaseReel } from "./components/blinkit/FeaturedTransitions";
 import { TransitionsVol2ShowcaseReel } from "./components/blinkit/FeaturedTransitionsVol2";
 import { TransitionsVol3HeavyShowcaseReel } from "./components/blinkit/FeaturedTransitionsVol3Heavy";
+import { TransitionsVol4MinimalShowcaseReel } from "./components/blinkit/FeaturedTransitionsVol4Minimal";
 import { evaluateXCamera, SCENES, TOTAL_DURATION } from "./lib/timeline";
 import wordMapData from "./lib/word_map.json";
 
@@ -126,6 +127,12 @@ export default function App() {
     return params.get("showcase") === "3";
   }, []);
 
+  const isShowcaseVol4Route = useMemo(() => {
+    if (typeof window === "undefined") return false;
+    const params = new URLSearchParams(window.location.search);
+    return params.get("showcase") === "4";
+  }, []);
+
   const isRenderRoute = useMemo(() => {
     if (typeof window === "undefined") return false;
     const params = new URLSearchParams(window.location.search);
@@ -134,7 +141,8 @@ export default function App() {
       params.get("render") === "1" ||
       params.get("showcase") === "1" ||
       params.get("showcase") === "2" ||
-      params.get("showcase") === "3"
+      params.get("showcase") === "3" ||
+      params.get("showcase") === "4"
     );
   }, []);
 
@@ -323,7 +331,7 @@ export default function App() {
     return (
       <main
         className={`relative h-[1080px] w-[1920px] overflow-hidden ${
-          isShowcaseVol3Route ? "bg-[#F4EFE6]" : "bg-black"
+          isShowcaseVol3Route || isShowcaseVol4Route ? "bg-[#F4EFE6]" : "bg-black"
         }`}
       >
         {isShowcaseRoute ? (
@@ -332,6 +340,8 @@ export default function App() {
           <TransitionsVol2ShowcaseReel t={currentTime} />
         ) : isShowcaseVol3Route ? (
           <TransitionsVol3HeavyShowcaseReel t={currentTime} />
+        ) : isShowcaseVol4Route ? (
+          <TransitionsVol4MinimalShowcaseReel t={currentTime} />
         ) : (
           <Documentary t={currentTime} />
         )}

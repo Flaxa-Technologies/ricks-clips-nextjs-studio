@@ -155,6 +155,22 @@ Always import and weave these **13 broadcast-grade rigs** across Volume 1 (`src/
 19. **`MinimalElasticPendulumWaveAndRibbonRig` (17-Sphere Harmonic Pendulum Phase Wave $\rightarrow$ Plucked Elastic Guitar String Reveal)**:
     - Warm Studio Cream canvas (`#FAF8F2 -> #DCD4C4`) where 17 minimalist spheres oscillate at linearly graded frequencies (`ω_k = 3.2 + 0.38k`) before snapping into a horizontal elastic string that plucks (`110 * e^-3.8t * cos(22t) * sin(πx/L)`) to reveal `₹37,779 CRORE`.
 
+### Volume 4 Minimalist + Heavy Mathematical Physics Edition II — ZERO Black Backgrounds (`FeaturedTransitionsVol4Minimal.tsx`)
+*6 additional Motion Nations & Ordinary Folk minimal heavy-physics rigs (`/?showcase=4`):*
+
+20. **`MinimalNewtonCradleMomentumRig` (5-Sphere Newton's Cradle Momentum Transfer + 45° Long Shadows)**:
+    - Warm Studio Putty canvas (`#EFECE6 -> #CDC9BF`) with 5 suspended matte-charcoal and Blinkit-gold spheres transferring harmonic impulse across the chain with contact shockwaves and impact-triggered kinetic words (`ZERO FRICTION MOMENTUM.`).
+21. **`Minimal3DRibbonHelixCorkscrewRig` (True 3D Depth-Sorted Double-Helix Corkscrew Ribbon)**:
+    - Deep Petrol-Sapphire canvas (`#134263 -> #061826`, zero black!) where two parametric 3D sine/cosine ribbons (`#F8CB46` Gold and `#38BDF8` Cyan) corkscrew in front of (`z >= 0`) and behind (`z < 0`) `HYPERPURE DNA` via two-pass Z-depth sorting.
+22. **`MinimalMagneticGridRepulsionRig` (15×7 Magnetic Vector Pill Field + Travelling Sphere Repulsion)**:
+    - Warm Studio Cream canvas (`#FAF8F2 -> #D8D0C0`) with 105 minimalist rounded vector pills that dynamically repel and rotate via Coulomb inverse-distance mathematics as a Blinkit-Gold sphere sweeps through the field, parting the center to reveal `2,243 DARK STORES`.
+23. **`MinimalOrigamiGeometricUnfoldRig` (Bauhaus 4-Step Hinged 3D Origami Swiss Cross Unfold)**:
+    - Warm Bauhaus Putty canvas (`#F4F2EC -> #D1CCC0`) where a central square unfolds 4 hinged 3D flaps (`rotateX(±180deg)`, `rotateY(±180deg)`) into a Swiss Cross (`SCAN / PACK / SEAL / SHIP`) around `85 SECONDS`.
+24. **`MinimalElasticBowstringLaunchRig` (Parabolic Tensioned Bowstring Slingshot Launch + Diagonal Slice)**:
+    - Soft Matte Graphite canvas (`#2D3038 -> #1A1C22`, zero black!) where a vertical quadratic-bezier string pulls back under tension, fires a Blinkit-Gold sphere at high velocity with damped string vibration, and triggers a diagonal razor slice into Warm Studio Cream (`HYPERVELOCITY`).
+25. **`MinimalConcentricDialVaultLockRig` (3-Ring Combination Vault Alignment + Horizontal Laser Split)**:
+    - Warm Studio Alabaster canvas (`#F4F1EA -> #D5CFC2`) where 3 counter-rotating notched vault rings snap into alignment at 12 o'clock (`0 deg`) and split apart horizontally to reveal `46% MARKET LEADER`.
+
 ---
 
 ## 4. "WHAT TO SHOW WHEN" — THE DOCUMENTARY VISUAL CHOREOGRAPHY & STORYTELLING MATRIX
