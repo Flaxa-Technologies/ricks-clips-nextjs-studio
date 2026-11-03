@@ -1,0 +1,3851 @@
+{
+  "totalDuration": 232.196,
+  "chapters": [
+    {
+      "cid": "ch01_hook",
+      "start": 0.9,
+      "end": 27.228,
+      "dur": 26.328,
+      "text": "In India today, you tap a yellow icon on your phone... and before you can even boil water for tea, a rider is ringing your doorbell. Milk, batteries, a charger, even a brand-new iPhone, delivered in nine minutes flat. That yellow app is Blinkit. Today it processes over nine hundred million orders a year, and powers thirty-seven thousand crore rupees in revenue. But four years ago... Wall Street called it a suicide mission, and the company was weeks away from running out of cash.",
+      "words": [
+        {
+          "g": 0.988,
+          "loc": 0.088,
+          "dur": 0.11,
+          "w": "In"
+        },
+        {
+          "g": 1.108,
+          "loc": 0.208,
+          "dur": 0.307,
+          "w": "India"
+        },
+        {
+          "g": 1.426,
+          "loc": 0.526,
+          "dur": 0.318,
+          "w": "today"
+        },
+        {
+          "g": 2.084,
+          "loc": 1.184,
+          "dur": 0.088,
+          "w": "you"
+        },
+        {
+          "g": 2.183,
+          "loc": 1.283,
+          "dur": 0.263,
+          "w": "tap"
+        },
+        {
+          "g": 2.457,
+          "loc": 1.557,
+          "dur": 0.033,
+          "w": "a"
+        },
+        {
+          "g": 2.501,
+          "loc": 1.601,
+          "dur": 0.395,
+          "w": "yellow"
+        },
+        {
+          "g": 2.907,
+          "loc": 2.007,
+          "dur": 0.34,
+          "w": "icon"
+        },
+        {
+          "g": 3.257,
+          "loc": 2.357,
+          "dur": 0.088,
+          "w": "on"
+        },
+        {
+          "g": 3.356,
+          "loc": 2.456,
+          "dur": 0.11,
+          "w": "your"
+        },
+        {
+          "g": 3.477,
+          "loc": 2.577,
+          "dur": 0.329,
+          "w": "phone"
+        },
+        {
+          "g": 4.2,
+          "loc": 3.3,
+          "dur": 0.055,
+          "w": "and"
+        },
+        {
+          "g": 4.266,
+          "loc": 3.366,
+          "dur": 0.329,
+          "w": "before"
+        },
+        {
+          "g": 4.606,
+          "loc": 3.706,
+          "dur": 0.11,
+          "w": "you"
+        },
+        {
+          "g": 4.727,
+          "loc": 3.827,
+          "dur": 0.121,
+          "w": "can"
+        },
+        {
+          "g": 4.968,
+          "loc": 4.068,
+          "dur": 0.219,
+          "w": "even"
+        },
+        {
+          "g": 5.198,
+          "loc": 4.298,
+          "dur": 0.296,
+          "w": "boil"
+        },
+        {
+          "g": 5.505,
+          "loc": 4.605,
+          "dur": 0.219,
+          "w": "water"
+        },
+        {
+          "g": 5.736,
+          "loc": 4.836,
+          "dur": 0.132,
+          "w": "for"
+        },
+        {
+          "g": 5.878,
+          "loc": 4.978,
+          "dur": 0.285,
+          "w": "tea"
+        },
+        {
+          "g": 6.525,
+          "loc": 5.625,
+          "dur": 0.055,
+          "w": "a"
+        },
+        {
+          "g": 6.591,
+          "loc": 5.691,
+          "dur": 0.351,
+          "w": "rider"
+        },
+        {
+          "g": 6.953,
+          "loc": 6.053,
+          "dur": 0.11,
+          "w": "is"
+        },
+        {
+          "g": 7.073,
+          "loc": 6.173,
+          "dur": 0.263,
+          "w": "ringing"
+        },
+        {
+          "g": 7.347,
+          "loc": 6.447,
+          "dur": 0.088,
+          "w": "your"
+        },
+        {
+          "g": 7.446,
+          "loc": 6.546,
+          "dur": 0.45,
+          "w": "doorbell"
+        },
+        {
+          "g": 8.257,
+          "loc": 7.357,
+          "dur": 0.351,
+          "w": "Milk"
+        },
+        {
+          "g": 8.806,
+          "loc": 7.906,
+          "dur": 0.581,
+          "w": "batteries"
+        },
+        {
+          "g": 9.529,
+          "loc": 8.629,
+          "dur": 0.044,
+          "w": "a"
+        },
+        {
+          "g": 9.584,
+          "loc": 8.684,
+          "dur": 0.493,
+          "w": "charger"
+        },
+        {
+          "g": 10.407,
+          "loc": 9.507,
+          "dur": 0.175,
+          "w": "even"
+        },
+        {
+          "g": 10.593,
+          "loc": 9.693,
+          "dur": 0.055,
+          "w": "a"
+        },
+        {
+          "g": 10.659,
+          "loc": 9.759,
+          "dur": 0.493,
+          "w": "brand-new"
+        },
+        {
+          "g": 11.163,
+          "loc": 10.263,
+          "dur": 0.45,
+          "w": "iPhone"
+        },
+        {
+          "g": 11.865,
+          "loc": 10.965,
+          "dur": 0.373,
+          "w": "delivered"
+        },
+        {
+          "g": 12.249,
+          "loc": 11.349,
+          "dur": 0.11,
+          "w": "in"
+        },
+        {
+          "g": 12.369,
+          "loc": 11.469,
+          "dur": 0.241,
+          "w": "nine"
+        },
+        {
+          "g": 12.622,
+          "loc": 11.722,
+          "dur": 0.208,
+          "w": "minutes"
+        },
+        {
+          "g": 12.841,
+          "loc": 11.941,
+          "dur": 0.362,
+          "w": "flat"
+        },
+        {
+          "g": 13.575,
+          "loc": 12.675,
+          "dur": 0.099,
+          "w": "That"
+        },
+        {
+          "g": 13.685,
+          "loc": 12.785,
+          "dur": 0.285,
+          "w": "yellow"
+        },
+        {
+          "g": 13.981,
+          "loc": 13.081,
+          "dur": 0.175,
+          "w": "app"
+        },
+        {
+          "g": 14.222,
+          "loc": 13.322,
+          "dur": 0.088,
+          "w": "is"
+        },
+        {
+          "g": 14.321,
+          "loc": 13.421,
+          "dur": 0.395,
+          "w": "Blinkit"
+        },
+        {
+          "g": 15.089,
+          "loc": 14.189,
+          "dur": 0.219,
+          "w": "Today"
+        },
+        {
+          "g": 15.319,
+          "loc": 14.419,
+          "dur": 0.088,
+          "w": "it"
+        },
+        {
+          "g": 15.418,
+          "loc": 14.518,
+          "dur": 0.636,
+          "w": "processes"
+        },
+        {
+          "g": 16.064,
+          "loc": 15.164,
+          "dur": 0.197,
+          "w": "over"
+        },
+        {
+          "g": 16.273,
+          "loc": 15.373,
+          "dur": 0.307,
+          "w": "nine"
+        },
+        {
+          "g": 16.591,
+          "loc": 15.691,
+          "dur": 0.34,
+          "w": "hundred"
+        },
+        {
+          "g": 16.942,
+          "loc": 16.042,
+          "dur": 0.417,
+          "w": "million"
+        },
+        {
+          "g": 17.369,
+          "loc": 16.469,
+          "dur": 0.263,
+          "w": "orders"
+        },
+        {
+          "g": 17.643,
+          "loc": 16.743,
+          "dur": 0.022,
+          "w": "a"
+        },
+        {
+          "g": 17.676,
+          "loc": 16.776,
+          "dur": 0.351,
+          "w": "year"
+        },
+        {
+          "g": 18.301,
+          "loc": 17.401,
+          "dur": 0.066,
+          "w": "and"
+        },
+        {
+          "g": 18.378,
+          "loc": 17.478,
+          "dur": 0.428,
+          "w": "powers"
+        },
+        {
+          "g": 18.817,
+          "loc": 17.917,
+          "dur": 0.57,
+          "w": "thirty-seven"
+        },
+        {
+          "g": 19.398,
+          "loc": 18.498,
+          "dur": 0.384,
+          "w": "thousand"
+        },
+        {
+          "g": 19.793,
+          "loc": 18.893,
+          "dur": 0.241,
+          "w": "crore"
+        },
+        {
+          "g": 20.045,
+          "loc": 19.145,
+          "dur": 0.45,
+          "w": "rupees"
+        },
+        {
+          "g": 20.505,
+          "loc": 19.605,
+          "dur": 0.11,
+          "w": "in"
+        },
+        {
+          "g": 20.626,
+          "loc": 19.726,
+          "dur": 0.373,
+          "w": "revenue"
+        },
+        {
+          "g": 21.371,
+          "loc": 20.471,
+          "dur": 0.077,
+          "w": "But"
+        },
+        {
+          "g": 21.459,
+          "loc": 20.559,
+          "dur": 0.219,
+          "w": "four"
+        },
+        {
+          "g": 21.689,
+          "loc": 20.789,
+          "dur": 0.208,
+          "w": "years"
+        },
+        {
+          "g": 21.909,
+          "loc": 21.009,
+          "dur": 0.263,
+          "w": "ago"
+        },
+        {
+          "g": 22.534,
+          "loc": 21.634,
+          "dur": 0.45,
+          "w": "Wall Street"
+        },
+        {
+          "g": 22.994,
+          "loc": 22.094,
+          "dur": 0.23,
+          "w": "called"
+        },
+        {
+          "g": 23.236,
+          "loc": 22.336,
+          "dur": 0.066,
+          "w": "it"
+        },
+        {
+          "g": 23.312,
+          "loc": 22.412,
+          "dur": 0.033,
+          "w": "a"
+        },
+        {
+          "g": 23.356,
+          "loc": 22.456,
+          "dur": 0.526,
+          "w": "suicide"
+        },
+        {
+          "g": 23.893,
+          "loc": 22.993,
+          "dur": 0.34,
+          "w": "mission"
+        },
+        {
+          "g": 24.496,
+          "loc": 23.596,
+          "dur": 0.044,
+          "w": "and"
+        },
+        {
+          "g": 24.551,
+          "loc": 23.651,
+          "dur": 0.066,
+          "w": "the"
+        },
+        {
+          "g": 24.628,
+          "loc": 23.728,
+          "dur": 0.373,
+          "w": "company"
+        },
+        {
+          "g": 25.012,
+          "loc": 24.112,
+          "dur": 0.164,
+          "w": "was"
+        },
+        {
+          "g": 25.187,
+          "loc": 24.287,
+          "dur": 0.263,
+          "w": "weeks"
+        },
+        {
+          "g": 25.461,
+          "loc": 24.561,
+          "dur": 0.296,
+          "w": "away"
+        },
+        {
+          "g": 25.768,
+          "loc": 24.868,
+          "dur": 0.208,
+          "w": "from"
+        },
+        {
+          "g": 25.988,
+          "loc": 25.088,
+          "dur": 0.219,
+          "w": "running"
+        },
+        {
+          "g": 26.218,
+          "loc": 25.318,
+          "dur": 0.088,
+          "w": "out"
+        },
+        {
+          "g": 26.317,
+          "loc": 25.417,
+          "dur": 0.066,
+          "w": "of"
+        },
+        {
+          "g": 26.393,
+          "loc": 25.493,
+          "dur": 0.504,
+          "w": "cash"
+        }
+      ]
+    },
+    {
+      "cid": "ch02_origin",
+      "start": 27.578,
+      "end": 47.57,
+      "dur": 19.992,
+      "text": "Rewind to December twenty thirteen in Gurugram. Two IIT graduates, Albinder Dhindsa and Saurabh Kumar, noticed a broken link in urban India. Neighborhood kirana stores had everything on their shelves... yet nobody had a reliable rider network to bring those bags home. They launched a local delivery service called On-Number... and soon rebranded it to Grofers.",
+      "words": [
+        {
+          "g": 27.666,
+          "loc": 0.088,
+          "dur": 0.482,
+          "w": "Rewind"
+        },
+        {
+          "g": 28.214,
+          "loc": 0.636,
+          "dur": 0.077,
+          "w": "to"
+        },
+        {
+          "g": 28.302,
+          "loc": 0.724,
+          "dur": 0.439,
+          "w": "December"
+        },
+        {
+          "g": 28.751,
+          "loc": 1.173,
+          "dur": 0.274,
+          "w": "twenty"
+        },
+        {
+          "g": 29.036,
+          "loc": 1.458,
+          "dur": 0.493,
+          "w": "thirteen"
+        },
+        {
+          "g": 29.617,
+          "loc": 2.039,
+          "dur": 0.088,
+          "w": "in"
+        },
+        {
+          "g": 29.716,
+          "loc": 2.138,
+          "dur": 0.559,
+          "w": "Gurugram"
+        },
+        {
+          "g": 30.648,
+          "loc": 3.07,
+          "dur": 0.175,
+          "w": "Two"
+        },
+        {
+          "g": 30.835,
+          "loc": 3.257,
+          "dur": 0.417,
+          "w": "IIT"
+        },
+        {
+          "g": 31.262,
+          "loc": 3.684,
+          "dur": 0.614,
+          "w": "graduates"
+        },
+        {
+          "g": 32.041,
+          "loc": 4.463,
+          "dur": 0.471,
+          "w": "Albinder"
+        },
+        {
+          "g": 32.523,
+          "loc": 4.945,
+          "dur": 0.471,
+          "w": "Dhindsa"
+        },
+        {
+          "g": 33.082,
+          "loc": 5.504,
+          "dur": 0.099,
+          "w": "and"
+        },
+        {
+          "g": 33.192,
+          "loc": 5.614,
+          "dur": 0.362,
+          "w": "Saurabh"
+        },
+        {
+          "g": 33.565,
+          "loc": 5.987,
+          "dur": 0.417,
+          "w": "Kumar"
+        },
+        {
+          "g": 34.31,
+          "loc": 6.732,
+          "dur": 0.252,
+          "w": "noticed"
+        },
+        {
+          "g": 34.574,
+          "loc": 6.996,
+          "dur": 0.044,
+          "w": "a"
+        },
+        {
+          "g": 34.628,
+          "loc": 7.05,
+          "dur": 0.428,
+          "w": "broken"
+        },
+        {
+          "g": 35.067,
+          "loc": 7.489,
+          "dur": 0.274,
+          "w": "link"
+        },
+        {
+          "g": 35.495,
+          "loc": 7.917,
+          "dur": 0.132,
+          "w": "in"
+        },
+        {
+          "g": 35.714,
+          "loc": 8.136,
+          "dur": 0.241,
+          "w": "urban"
+        },
+        {
+          "g": 35.966,
+          "loc": 8.388,
+          "dur": 0.373,
+          "w": "India"
+        },
+        {
+          "g": 36.701,
+          "loc": 9.123,
+          "dur": 0.406,
+          "w": "Neighborhood"
+        },
+        {
+          "g": 37.117,
+          "loc": 9.539,
+          "dur": 0.362,
+          "w": "kirana"
+        },
+        {
+          "g": 37.49,
+          "loc": 9.912,
+          "dur": 0.318,
+          "w": "stores"
+        },
+        {
+          "g": 37.819,
+          "loc": 10.241,
+          "dur": 0.132,
+          "w": "had"
+        },
+        {
+          "g": 38.082,
+          "loc": 10.504,
+          "dur": 0.395,
+          "w": "everything"
+        },
+        {
+          "g": 38.488,
+          "loc": 10.91,
+          "dur": 0.077,
+          "w": "on"
+        },
+        {
+          "g": 38.576,
+          "loc": 10.998,
+          "dur": 0.121,
+          "w": "their"
+        },
+        {
+          "g": 38.707,
+          "loc": 11.129,
+          "dur": 0.482,
+          "w": "shelves"
+        },
+        {
+          "g": 39.464,
+          "loc": 11.886,
+          "dur": 0.164,
+          "w": "yet"
+        },
+        {
+          "g": 39.639,
+          "loc": 12.061,
+          "dur": 0.384,
+          "w": "nobody"
+        },
+        {
+          "g": 40.034,
+          "loc": 12.456,
+          "dur": 0.132,
+          "w": "had"
+        },
+        {
+          "g": 40.177,
+          "loc": 12.599,
+          "dur": 0.033,
+          "w": "a"
+        },
+        {
+          "g": 40.221,
+          "loc": 12.643,
+          "dur": 0.537,
+          "w": "reliable"
+        },
+        {
+          "g": 40.769,
+          "loc": 13.191,
+          "dur": 0.241,
+          "w": "rider"
+        },
+        {
+          "g": 41.021,
+          "loc": 13.443,
+          "dur": 0.395,
+          "w": "network"
+        },
+        {
+          "g": 41.536,
+          "loc": 13.958,
+          "dur": 0.077,
+          "w": "to"
+        },
+        {
+          "g": 41.624,
+          "loc": 14.046,
+          "dur": 0.208,
+          "w": "bring"
+        },
+        {
+          "g": 41.843,
+          "loc": 14.265,
+          "dur": 0.175,
+          "w": "those"
+        },
+        {
+          "g": 42.03,
+          "loc": 14.452,
+          "dur": 0.263,
+          "w": "bags"
+        },
+        {
+          "g": 42.304,
+          "loc": 14.726,
+          "dur": 0.263,
+          "w": "home"
+        },
+        {
+          "g": 42.94,
+          "loc": 15.362,
+          "dur": 0.066,
+          "w": "They"
+        },
+        {
+          "g": 43.017,
+          "loc": 15.439,
+          "dur": 0.307,
+          "w": "launched"
+        },
+        {
+          "g": 43.335,
+          "loc": 15.757,
+          "dur": 0.033,
+          "w": "a"
+        },
+        {
+          "g": 43.378,
+          "loc": 15.8,
+          "dur": 0.296,
+          "w": "local"
+        },
+        {
+          "g": 43.685,
+          "loc": 16.107,
+          "dur": 0.362,
+          "w": "delivery"
+        },
+        {
+          "g": 44.058,
+          "loc": 16.48,
+          "dur": 0.34,
+          "w": "service"
+        },
+        {
+          "g": 44.409,
+          "loc": 16.831,
+          "dur": 0.23,
+          "w": "called"
+        },
+        {
+          "g": 44.716,
+          "loc": 17.138,
+          "dur": 0.482,
+          "w": "On-Number"
+        },
+        {
+          "g": 45.604,
+          "loc": 18.026,
+          "dur": 0.066,
+          "w": "and"
+        },
+        {
+          "g": 45.681,
+          "loc": 18.103,
+          "dur": 0.252,
+          "w": "soon"
+        },
+        {
+          "g": 45.944,
+          "loc": 18.366,
+          "dur": 0.493,
+          "w": "rebranded"
+        },
+        {
+          "g": 46.449,
+          "loc": 18.871,
+          "dur": 0.099,
+          "w": "it"
+        },
+        {
+          "g": 46.558,
+          "loc": 18.98,
+          "dur": 0.077,
+          "w": "to"
+        },
+        {
+          "g": 46.646,
+          "loc": 19.068,
+          "dur": 0.592,
+          "w": "Grofers"
+        }
+      ]
+    },
+    {
+      "cid": "ch03_slotted",
+      "start": 47.92,
+      "end": 68.752,
+      "dur": 20.832,
+      "text": "For seven years, Grofers chased the scheduled supermarket dream. You ordered groceries today... and a van delivered them tomorrow afternoon. Investors poured in over six hundred million dollars from SoftBank and Tiger Global. Yet the math was a trap. Giant warehouses on city outskirts meant huge fuel costs, low-margin staples, and customers who only opened the app twice a month.",
+      "words": [
+        {
+          "g": 48.03,
+          "loc": 0.11,
+          "dur": 0.077,
+          "w": "For"
+        },
+        {
+          "g": 48.117,
+          "loc": 0.197,
+          "dur": 0.274,
+          "w": "seven"
+        },
+        {
+          "g": 48.402,
+          "loc": 0.482,
+          "dur": 0.362,
+          "w": "years"
+        },
+        {
+          "g": 48.94,
+          "loc": 1.02,
+          "dur": 0.515,
+          "w": "Grofers"
+        },
+        {
+          "g": 49.631,
+          "loc": 1.711,
+          "dur": 0.285,
+          "w": "chased"
+        },
+        {
+          "g": 49.927,
+          "loc": 2.007,
+          "dur": 0.077,
+          "w": "the"
+        },
+        {
+          "g": 50.014,
+          "loc": 2.094,
+          "dur": 0.493,
+          "w": "scheduled"
+        },
+        {
+          "g": 50.552,
+          "loc": 2.632,
+          "dur": 0.592,
+          "w": "supermarket"
+        },
+        {
+          "g": 51.155,
+          "loc": 3.235,
+          "dur": 0.252,
+          "w": "dream"
+        },
+        {
+          "g": 51.769,
+          "loc": 3.849,
+          "dur": 0.099,
+          "w": "You"
+        },
+        {
+          "g": 51.878,
+          "loc": 3.958,
+          "dur": 0.208,
+          "w": "ordered"
+        },
+        {
+          "g": 52.098,
+          "loc": 4.178,
+          "dur": 0.493,
+          "w": "groceries"
+        },
+        {
+          "g": 52.602,
+          "loc": 4.682,
+          "dur": 0.34,
+          "w": "today"
+        },
+        {
+          "g": 53.227,
+          "loc": 5.307,
+          "dur": 0.099,
+          "w": "and"
+        },
+        {
+          "g": 53.337,
+          "loc": 5.417,
+          "dur": 0.033,
+          "w": "a"
+        },
+        {
+          "g": 53.381,
+          "loc": 5.461,
+          "dur": 0.318,
+          "w": "van"
+        },
+        {
+          "g": 53.709,
+          "loc": 5.789,
+          "dur": 0.384,
+          "w": "delivered"
+        },
+        {
+          "g": 54.104,
+          "loc": 6.184,
+          "dur": 0.121,
+          "w": "them"
+        },
+        {
+          "g": 54.236,
+          "loc": 6.316,
+          "dur": 0.395,
+          "w": "tomorrow"
+        },
+        {
+          "g": 54.641,
+          "loc": 6.721,
+          "dur": 0.461,
+          "w": "afternoon"
+        },
+        {
+          "g": 55.464,
+          "loc": 7.544,
+          "dur": 0.439,
+          "w": "Investors"
+        },
+        {
+          "g": 55.913,
+          "loc": 7.993,
+          "dur": 0.263,
+          "w": "poured"
+        },
+        {
+          "g": 56.188,
+          "loc": 8.268,
+          "dur": 0.088,
+          "w": "in"
+        },
+        {
+          "g": 56.286,
+          "loc": 8.366,
+          "dur": 0.208,
+          "w": "over"
+        },
+        {
+          "g": 56.506,
+          "loc": 8.586,
+          "dur": 0.296,
+          "w": "six"
+        },
+        {
+          "g": 56.813,
+          "loc": 8.893,
+          "dur": 0.351,
+          "w": "hundred"
+        },
+        {
+          "g": 57.174,
+          "loc": 9.254,
+          "dur": 0.307,
+          "w": "million"
+        },
+        {
+          "g": 57.492,
+          "loc": 9.572,
+          "dur": 0.329,
+          "w": "dollars"
+        },
+        {
+          "g": 57.832,
+          "loc": 9.912,
+          "dur": 0.143,
+          "w": "from"
+        },
+        {
+          "g": 57.986,
+          "loc": 10.066,
+          "dur": 0.625,
+          "w": "SoftBank"
+        },
+        {
+          "g": 58.709,
+          "loc": 10.789,
+          "dur": 0.077,
+          "w": "and"
+        },
+        {
+          "g": 58.797,
+          "loc": 10.877,
+          "dur": 0.362,
+          "w": "Tiger"
+        },
+        {
+          "g": 59.17,
+          "loc": 11.25,
+          "dur": 0.384,
+          "w": "Global"
+        },
+        {
+          "g": 59.916,
+          "loc": 11.996,
+          "dur": 0.11,
+          "w": "Yet"
+        },
+        {
+          "g": 60.036,
+          "loc": 12.116,
+          "dur": 0.055,
+          "w": "the"
+        },
+        {
+          "g": 60.102,
+          "loc": 12.182,
+          "dur": 0.307,
+          "w": "math"
+        },
+        {
+          "g": 60.42,
+          "loc": 12.5,
+          "dur": 0.121,
+          "w": "was"
+        },
+        {
+          "g": 60.552,
+          "loc": 12.632,
+          "dur": 0.033,
+          "w": "a"
+        },
+        {
+          "g": 60.595,
+          "loc": 12.675,
+          "dur": 0.373,
+          "w": "trap"
+        },
+        {
+          "g": 61.33,
+          "loc": 13.41,
+          "dur": 0.285,
+          "w": "Giant"
+        },
+        {
+          "g": 61.626,
+          "loc": 13.706,
+          "dur": 0.526,
+          "w": "warehouses"
+        },
+        {
+          "g": 62.163,
+          "loc": 14.243,
+          "dur": 0.099,
+          "w": "on"
+        },
+        {
+          "g": 62.273,
+          "loc": 14.353,
+          "dur": 0.307,
+          "w": "city"
+        },
+        {
+          "g": 62.591,
+          "loc": 14.671,
+          "dur": 0.417,
+          "w": "outskirts"
+        },
+        {
+          "g": 63.019,
+          "loc": 15.099,
+          "dur": 0.296,
+          "w": "meant"
+        },
+        {
+          "g": 63.326,
+          "loc": 15.406,
+          "dur": 0.384,
+          "w": "huge"
+        },
+        {
+          "g": 63.72,
+          "loc": 15.8,
+          "dur": 0.23,
+          "w": "fuel"
+        },
+        {
+          "g": 63.962,
+          "loc": 16.042,
+          "dur": 0.548,
+          "w": "costs"
+        },
+        {
+          "g": 64.707,
+          "loc": 16.787,
+          "dur": 0.428,
+          "w": "low-margin"
+        },
+        {
+          "g": 65.146,
+          "loc": 17.226,
+          "dur": 0.504,
+          "w": "staples"
+        },
+        {
+          "g": 65.87,
+          "loc": 17.95,
+          "dur": 0.099,
+          "w": "and"
+        },
+        {
+          "g": 65.979,
+          "loc": 18.059,
+          "dur": 0.45,
+          "w": "customers"
+        },
+        {
+          "g": 66.44,
+          "loc": 18.52,
+          "dur": 0.143,
+          "w": "who"
+        },
+        {
+          "g": 66.637,
+          "loc": 18.717,
+          "dur": 0.329,
+          "w": "only"
+        },
+        {
+          "g": 66.977,
+          "loc": 19.057,
+          "dur": 0.263,
+          "w": "opened"
+        },
+        {
+          "g": 67.251,
+          "loc": 19.331,
+          "dur": 0.088,
+          "w": "the"
+        },
+        {
+          "g": 67.35,
+          "loc": 19.43,
+          "dur": 0.296,
+          "w": "app"
+        },
+        {
+          "g": 67.712,
+          "loc": 19.792,
+          "dur": 0.285,
+          "w": "twice"
+        },
+        {
+          "g": 68.008,
+          "loc": 20.088,
+          "dur": 0.033,
+          "w": "a"
+        },
+        {
+          "g": 68.052,
+          "loc": 20.132,
+          "dur": 0.362,
+          "w": "month"
+        }
+      ]
+    },
+    {
+      "cid": "ch04_pivot",
+      "start": 69.102,
+      "end": 94.566,
+      "dur": 25.464,
+      "text": "By twenty twenty-one, Amazon, Flipkart, and BigBasket had boxed Grofers into a corner. A planned NASDAQ listing collapsed. Then Albinder looked at a shocking piece of internal data. Whenever deliveries arrived in under twenty minutes... customer retention tripled. In mid twenty twenty-one, Grofers made an all-or-nothing gamble. They shut down next-day slots, and promised groceries in ten minutes. And on December thirteenth, twenty twenty-one... Grofers became Blinkit.",
+      "words": [
+        {
+          "g": 69.19,
+          "loc": 0.088,
+          "dur": 0.066,
+          "w": "By"
+        },
+        {
+          "g": 69.266,
+          "loc": 0.164,
+          "dur": 0.252,
+          "w": "twenty"
+        },
+        {
+          "g": 69.53,
+          "loc": 0.428,
+          "dur": 0.461,
+          "w": "twenty-one"
+        },
+        {
+          "g": 70.319,
+          "loc": 1.217,
+          "dur": 0.45,
+          "w": "Amazon"
+        },
+        {
+          "g": 70.955,
+          "loc": 1.853,
+          "dur": 0.515,
+          "w": "Flipkart"
+        },
+        {
+          "g": 71.668,
+          "loc": 2.566,
+          "dur": 0.088,
+          "w": "and"
+        },
+        {
+          "g": 71.81,
+          "loc": 2.708,
+          "dur": 0.592,
+          "w": "BigBasket"
+        },
+        {
+          "g": 72.413,
+          "loc": 3.311,
+          "dur": 0.186,
+          "w": "had"
+        },
+        {
+          "g": 72.611,
+          "loc": 3.509,
+          "dur": 0.318,
+          "w": "boxed"
+        },
+        {
+          "g": 72.94,
+          "loc": 3.838,
+          "dur": 0.537,
+          "w": "Grofers"
+        },
+        {
+          "g": 73.488,
+          "loc": 4.386,
+          "dur": 0.208,
+          "w": "into"
+        },
+        {
+          "g": 73.707,
+          "loc": 4.605,
+          "dur": 0.055,
+          "w": "a"
+        },
+        {
+          "g": 73.773,
+          "loc": 4.671,
+          "dur": 0.384,
+          "w": "corner"
+        },
+        {
+          "g": 74.519,
+          "loc": 5.417,
+          "dur": 0.044,
+          "w": "A"
+        },
+        {
+          "g": 74.573,
+          "loc": 5.471,
+          "dur": 0.274,
+          "w": "planned"
+        },
+        {
+          "g": 74.859,
+          "loc": 5.757,
+          "dur": 0.461,
+          "w": "NASDAQ"
+        },
+        {
+          "g": 75.33,
+          "loc": 6.228,
+          "dur": 0.274,
+          "w": "listing"
+        },
+        {
+          "g": 75.615,
+          "loc": 6.513,
+          "dur": 0.526,
+          "w": "collapsed"
+        },
+        {
+          "g": 76.503,
+          "loc": 7.401,
+          "dur": 0.175,
+          "w": "Then"
+        },
+        {
+          "g": 76.69,
+          "loc": 7.588,
+          "dur": 0.471,
+          "w": "Albinder"
+        },
+        {
+          "g": 77.172,
+          "loc": 8.07,
+          "dur": 0.197,
+          "w": "looked"
+        },
+        {
+          "g": 77.38,
+          "loc": 8.278,
+          "dur": 0.044,
+          "w": "at"
+        },
+        {
+          "g": 77.435,
+          "loc": 8.333,
+          "dur": 0.022,
+          "w": "a"
+        },
+        {
+          "g": 77.468,
+          "loc": 8.366,
+          "dur": 0.461,
+          "w": "shocking"
+        },
+        {
+          "g": 77.94,
+          "loc": 8.838,
+          "dur": 0.296,
+          "w": "piece"
+        },
+        {
+          "g": 78.247,
+          "loc": 9.145,
+          "dur": 0.077,
+          "w": "of"
+        },
+        {
+          "g": 78.334,
+          "loc": 9.232,
+          "dur": 0.329,
+          "w": "internal"
+        },
+        {
+          "g": 78.674,
+          "loc": 9.572,
+          "dur": 0.296,
+          "w": "data"
+        },
+        {
+          "g": 79.332,
+          "loc": 10.23,
+          "dur": 0.285,
+          "w": "Whenever"
+        },
+        {
+          "g": 79.628,
+          "loc": 10.526,
+          "dur": 0.45,
+          "w": "deliveries"
+        },
+        {
+          "g": 80.089,
+          "loc": 10.987,
+          "dur": 0.439,
+          "w": "arrived"
+        },
+        {
+          "g": 80.538,
+          "loc": 11.436,
+          "dur": 0.186,
+          "w": "in"
+        },
+        {
+          "g": 80.791,
+          "loc": 11.689,
+          "dur": 0.208,
+          "w": "under"
+        },
+        {
+          "g": 81.01,
+          "loc": 11.908,
+          "dur": 0.263,
+          "w": "twenty"
+        },
+        {
+          "g": 81.284,
+          "loc": 12.182,
+          "dur": 0.417,
+          "w": "minutes"
+        },
+        {
+          "g": 81.931,
+          "loc": 12.829,
+          "dur": 0.384,
+          "w": "customer"
+        },
+        {
+          "g": 82.326,
+          "loc": 13.224,
+          "dur": 0.406,
+          "w": "retention"
+        },
+        {
+          "g": 82.742,
+          "loc": 13.64,
+          "dur": 0.395,
+          "w": "tripled"
+        },
+        {
+          "g": 83.499,
+          "loc": 14.397,
+          "dur": 0.11,
+          "w": "In"
+        },
+        {
+          "g": 83.62,
+          "loc": 14.518,
+          "dur": 0.175,
+          "w": "mid"
+        },
+        {
+          "g": 83.806,
+          "loc": 14.704,
+          "dur": 0.241,
+          "w": "twenty"
+        },
+        {
+          "g": 84.058,
+          "loc": 14.956,
+          "dur": 0.515,
+          "w": "twenty-one"
+        },
+        {
+          "g": 84.848,
+          "loc": 15.746,
+          "dur": 0.526,
+          "w": "Grofers"
+        },
+        {
+          "g": 85.385,
+          "loc": 16.283,
+          "dur": 0.164,
+          "w": "made"
+        },
+        {
+          "g": 85.56,
+          "loc": 16.458,
+          "dur": 0.11,
+          "w": "an"
+        },
+        {
+          "g": 85.725,
+          "loc": 16.623,
+          "dur": 0.537,
+          "w": "all-or-nothing"
+        },
+        {
+          "g": 86.273,
+          "loc": 17.171,
+          "dur": 0.428,
+          "w": "gamble"
+        },
+        {
+          "g": 87.073,
+          "loc": 17.971,
+          "dur": 0.055,
+          "w": "They"
+        },
+        {
+          "g": 87.139,
+          "loc": 18.037,
+          "dur": 0.23,
+          "w": "shut"
+        },
+        {
+          "g": 87.381,
+          "loc": 18.279,
+          "dur": 0.219,
+          "w": "down"
+        },
+        {
+          "g": 87.611,
+          "loc": 18.509,
+          "dur": 0.329,
+          "w": "next-day"
+        },
+        {
+          "g": 87.951,
+          "loc": 18.849,
+          "dur": 0.493,
+          "w": "slots"
+        },
+        {
+          "g": 88.631,
+          "loc": 19.529,
+          "dur": 0.099,
+          "w": "and"
+        },
+        {
+          "g": 88.74,
+          "loc": 19.638,
+          "dur": 0.373,
+          "w": "promised"
+        },
+        {
+          "g": 89.124,
+          "loc": 20.022,
+          "dur": 0.493,
+          "w": "groceries"
+        },
+        {
+          "g": 89.628,
+          "loc": 20.526,
+          "dur": 0.077,
+          "w": "in"
+        },
+        {
+          "g": 89.716,
+          "loc": 20.614,
+          "dur": 0.175,
+          "w": "ten"
+        },
+        {
+          "g": 89.902,
+          "loc": 20.8,
+          "dur": 0.417,
+          "w": "minutes"
+        },
+        {
+          "g": 90.681,
+          "loc": 21.579,
+          "dur": 0.099,
+          "w": "And"
+        },
+        {
+          "g": 90.791,
+          "loc": 21.689,
+          "dur": 0.099,
+          "w": "on"
+        },
+        {
+          "g": 90.9,
+          "loc": 21.798,
+          "dur": 0.362,
+          "w": "December"
+        },
+        {
+          "g": 91.273,
+          "loc": 22.171,
+          "dur": 0.581,
+          "w": "thirteenth"
+        },
+        {
+          "g": 92.073,
+          "loc": 22.971,
+          "dur": 0.219,
+          "w": "twenty"
+        },
+        {
+          "g": 92.304,
+          "loc": 23.202,
+          "dur": 0.461,
+          "w": "twenty-one"
+        },
+        {
+          "g": 93.126,
+          "loc": 24.024,
+          "dur": 0.351,
+          "w": "Grofers"
+        },
+        {
+          "g": 93.488,
+          "loc": 24.386,
+          "dur": 0.307,
+          "w": "became"
+        },
+        {
+          "g": 93.806,
+          "loc": 24.704,
+          "dur": 0.417,
+          "w": "Blinkit"
+        }
+      ]
+    },
+    {
+      "cid": "ch05_invasion",
+      "start": 94.916,
+      "end": 114.452,
+      "dur": 19.536,
+      "text": "Overnight, a gold rush exploded across Indian tech. Nineteen-year-old founders launched Zepto. Swiggy poured hundreds of millions into Instamart. Reliance-backed Dunzo pivoted to Dunzo Daily, and Ola launched Ola Dash. Every street corner became a war zone of dark stores and cash burn... losing over a hundred rupees on every single bag.",
+      "words": [
+        {
+          "g": 95.004,
+          "loc": 0.088,
+          "dur": 0.439,
+          "w": "Overnight"
+        },
+        {
+          "g": 95.629,
+          "loc": 0.713,
+          "dur": 0.077,
+          "w": "a"
+        },
+        {
+          "g": 95.716,
+          "loc": 0.8,
+          "dur": 0.329,
+          "w": "gold"
+        },
+        {
+          "g": 96.056,
+          "loc": 1.14,
+          "dur": 0.285,
+          "w": "rush"
+        },
+        {
+          "g": 96.352,
+          "loc": 1.436,
+          "dur": 0.461,
+          "w": "exploded"
+        },
+        {
+          "g": 96.824,
+          "loc": 1.908,
+          "dur": 0.362,
+          "w": "across"
+        },
+        {
+          "g": 97.197,
+          "loc": 2.281,
+          "dur": 0.285,
+          "w": "Indian"
+        },
+        {
+          "g": 97.493,
+          "loc": 2.577,
+          "dur": 0.362,
+          "w": "tech"
+        },
+        {
+          "g": 98.216,
+          "loc": 3.3,
+          "dur": 0.713,
+          "w": "Nineteen-year-old"
+        },
+        {
+          "g": 98.94,
+          "loc": 4.024,
+          "dur": 0.439,
+          "w": "founders"
+        },
+        {
+          "g": 99.39,
+          "loc": 4.474,
+          "dur": 0.351,
+          "w": "launched"
+        },
+        {
+          "g": 99.752,
+          "loc": 4.836,
+          "dur": 0.482,
+          "w": "Zepto"
+        },
+        {
+          "g": 100.607,
+          "loc": 5.691,
+          "dur": 0.34,
+          "w": "Swiggy"
+        },
+        {
+          "g": 100.958,
+          "loc": 6.042,
+          "dur": 0.241,
+          "w": "poured"
+        },
+        {
+          "g": 101.21,
+          "loc": 6.294,
+          "dur": 0.384,
+          "w": "hundreds"
+        },
+        {
+          "g": 101.605,
+          "loc": 6.689,
+          "dur": 0.077,
+          "w": "of"
+        },
+        {
+          "g": 101.692,
+          "loc": 6.776,
+          "dur": 0.526,
+          "w": "millions"
+        },
+        {
+          "g": 102.23,
+          "loc": 7.314,
+          "dur": 0.153,
+          "w": "into"
+        },
+        {
+          "g": 102.394,
+          "loc": 7.478,
+          "dur": 0.493,
+          "w": "Instamart"
+        },
+        {
+          "g": 103.249,
+          "loc": 8.333,
+          "dur": 0.68,
+          "w": "Reliance-backed"
+        },
+        {
+          "g": 103.94,
+          "loc": 9.024,
+          "dur": 0.362,
+          "w": "Dunzo"
+        },
+        {
+          "g": 104.313,
+          "loc": 9.397,
+          "dur": 0.373,
+          "w": "pivoted"
+        },
+        {
+          "g": 104.697,
+          "loc": 9.781,
+          "dur": 0.088,
+          "w": "to"
+        },
+        {
+          "g": 104.795,
+          "loc": 9.879,
+          "dur": 0.351,
+          "w": "Dunzo"
+        },
+        {
+          "g": 105.157,
+          "loc": 10.241,
+          "dur": 0.417,
+          "w": "Daily"
+        },
+        {
+          "g": 105.804,
+          "loc": 10.888,
+          "dur": 0.164,
+          "w": "and"
+        },
+        {
+          "g": 106.067,
+          "loc": 11.151,
+          "dur": 0.197,
+          "w": "Ola"
+        },
+        {
+          "g": 106.276,
+          "loc": 11.36,
+          "dur": 0.384,
+          "w": "launched"
+        },
+        {
+          "g": 106.769,
+          "loc": 11.853,
+          "dur": 0.175,
+          "w": "Ola"
+        },
+        {
+          "g": 106.955,
+          "loc": 12.039,
+          "dur": 0.471,
+          "w": "Dash"
+        },
+        {
+          "g": 107.789,
+          "loc": 12.873,
+          "dur": 0.45,
+          "w": "Every street"
+        },
+        {
+          "g": 108.249,
+          "loc": 13.333,
+          "dur": 0.285,
+          "w": "corner"
+        },
+        {
+          "g": 108.545,
+          "loc": 13.629,
+          "dur": 0.285,
+          "w": "became"
+        },
+        {
+          "g": 108.841,
+          "loc": 13.925,
+          "dur": 0.066,
+          "w": "a"
+        },
+        {
+          "g": 108.918,
+          "loc": 14.002,
+          "dur": 0.285,
+          "w": "war"
+        },
+        {
+          "g": 109.214,
+          "loc": 14.298,
+          "dur": 0.296,
+          "w": "zone"
+        },
+        {
+          "g": 109.521,
+          "loc": 14.605,
+          "dur": 0.121,
+          "w": "of"
+        },
+        {
+          "g": 109.653,
+          "loc": 14.737,
+          "dur": 0.208,
+          "w": "dark"
+        },
+        {
+          "g": 109.872,
+          "loc": 14.956,
+          "dur": 0.461,
+          "w": "stores"
+        },
+        {
+          "g": 110.486,
+          "loc": 15.57,
+          "dur": 0.099,
+          "w": "and"
+        },
+        {
+          "g": 110.596,
+          "loc": 15.68,
+          "dur": 0.329,
+          "w": "cash"
+        },
+        {
+          "g": 110.936,
+          "loc": 16.02,
+          "dur": 0.241,
+          "w": "burn"
+        },
+        {
+          "g": 111.659,
+          "loc": 16.743,
+          "dur": 0.285,
+          "w": "losing"
+        },
+        {
+          "g": 111.955,
+          "loc": 17.039,
+          "dur": 0.208,
+          "w": "over"
+        },
+        {
+          "g": 112.175,
+          "loc": 17.259,
+          "dur": 0.033,
+          "w": "a"
+        },
+        {
+          "g": 112.219,
+          "loc": 17.303,
+          "dur": 0.318,
+          "w": "hundred"
+        },
+        {
+          "g": 112.548,
+          "loc": 17.632,
+          "dur": 0.428,
+          "w": "rupees"
+        },
+        {
+          "g": 112.986,
+          "loc": 18.07,
+          "dur": 0.164,
+          "w": "on"
+        },
+        {
+          "g": 113.293,
+          "loc": 18.377,
+          "dur": 0.219,
+          "w": "every"
+        },
+        {
+          "g": 113.523,
+          "loc": 18.607,
+          "dur": 0.274,
+          "w": "single"
+        },
+        {
+          "g": 113.809,
+          "loc": 18.893,
+          "dur": 0.307,
+          "w": "bag"
+        }
+      ]
+    },
+    {
+      "cid": "ch06_slaughter",
+      "start": 114.802,
+      "end": 134.482,
+      "dur": 19.68,
+      "text": "Then came the twenty twenty-two global tech winter. Venture funding froze overnight. Ola Dash shut down within months. Dunzo burned through its treasury, delayed salaries, and collapsed into oblivion. Blinkit itself was bleeding heavily... shutting dark stores and taking an emergency hundred-and-fifty-million-dollar lifeline from Zomato just to stay alive.",
+      "words": [
+        {
+          "g": 114.89,
+          "loc": 0.088,
+          "dur": 0.197,
+          "w": "Then"
+        },
+        {
+          "g": 115.098,
+          "loc": 0.296,
+          "dur": 0.186,
+          "w": "came"
+        },
+        {
+          "g": 115.295,
+          "loc": 0.493,
+          "dur": 0.088,
+          "w": "the"
+        },
+        {
+          "g": 115.394,
+          "loc": 0.592,
+          "dur": 0.241,
+          "w": "twenty"
+        },
+        {
+          "g": 115.646,
+          "loc": 0.844,
+          "dur": 0.504,
+          "w": "twenty-two"
+        },
+        {
+          "g": 116.162,
+          "loc": 1.36,
+          "dur": 0.362,
+          "w": "global"
+        },
+        {
+          "g": 116.534,
+          "loc": 1.732,
+          "dur": 0.23,
+          "w": "tech"
+        },
+        {
+          "g": 116.776,
+          "loc": 1.974,
+          "dur": 0.34,
+          "w": "winter"
+        },
+        {
+          "g": 117.477,
+          "loc": 2.675,
+          "dur": 0.263,
+          "w": "Venture"
+        },
+        {
+          "g": 117.752,
+          "loc": 2.95,
+          "dur": 0.362,
+          "w": "funding"
+        },
+        {
+          "g": 118.124,
+          "loc": 3.322,
+          "dur": 0.296,
+          "w": "froze"
+        },
+        {
+          "g": 118.431,
+          "loc": 3.629,
+          "dur": 0.471,
+          "w": "overnight"
+        },
+        {
+          "g": 119.265,
+          "loc": 4.463,
+          "dur": 0.186,
+          "w": "Ola"
+        },
+        {
+          "g": 119.462,
+          "loc": 4.66,
+          "dur": 0.329,
+          "w": "Dash"
+        },
+        {
+          "g": 119.901,
+          "loc": 5.099,
+          "dur": 0.252,
+          "w": "shut"
+        },
+        {
+          "g": 120.164,
+          "loc": 5.362,
+          "dur": 0.23,
+          "w": "down"
+        },
+        {
+          "g": 120.405,
+          "loc": 5.603,
+          "dur": 0.241,
+          "w": "within"
+        },
+        {
+          "g": 120.657,
+          "loc": 5.855,
+          "dur": 0.417,
+          "w": "months"
+        },
+        {
+          "g": 121.436,
+          "loc": 6.634,
+          "dur": 0.307,
+          "w": "Dunzo"
+        },
+        {
+          "g": 121.754,
+          "loc": 6.952,
+          "dur": 0.439,
+          "w": "burned"
+        },
+        {
+          "g": 122.258,
+          "loc": 7.456,
+          "dur": 0.208,
+          "w": "through"
+        },
+        {
+          "g": 122.477,
+          "loc": 7.675,
+          "dur": 0.11,
+          "w": "its"
+        },
+        {
+          "g": 122.598,
+          "loc": 7.796,
+          "dur": 0.537,
+          "w": "treasury"
+        },
+        {
+          "g": 123.366,
+          "loc": 8.564,
+          "dur": 0.318,
+          "w": "delayed"
+        },
+        {
+          "g": 123.695,
+          "loc": 8.893,
+          "dur": 0.68,
+          "w": "salaries"
+        },
+        {
+          "g": 124.55,
+          "loc": 9.748,
+          "dur": 0.099,
+          "w": "and"
+        },
+        {
+          "g": 124.659,
+          "loc": 9.857,
+          "dur": 0.515,
+          "w": "collapsed"
+        },
+        {
+          "g": 125.186,
+          "loc": 10.384,
+          "dur": 0.197,
+          "w": "into"
+        },
+        {
+          "g": 125.394,
+          "loc": 10.592,
+          "dur": 0.482,
+          "w": "oblivion"
+        },
+        {
+          "g": 126.249,
+          "loc": 11.447,
+          "dur": 0.263,
+          "w": "Blinkit"
+        },
+        {
+          "g": 126.524,
+          "loc": 11.722,
+          "dur": 0.461,
+          "w": "itself"
+        },
+        {
+          "g": 127.039,
+          "loc": 12.237,
+          "dur": 0.175,
+          "w": "was"
+        },
+        {
+          "g": 127.225,
+          "loc": 12.423,
+          "dur": 0.417,
+          "w": "bleeding"
+        },
+        {
+          "g": 127.653,
+          "loc": 12.851,
+          "dur": 0.417,
+          "w": "heavily"
+        },
+        {
+          "g": 128.355,
+          "loc": 13.553,
+          "dur": 0.318,
+          "w": "shutting"
+        },
+        {
+          "g": 128.684,
+          "loc": 13.882,
+          "dur": 0.197,
+          "w": "dark"
+        },
+        {
+          "g": 128.892,
+          "loc": 14.09,
+          "dur": 0.439,
+          "w": "stores"
+        },
+        {
+          "g": 129.55,
+          "loc": 14.748,
+          "dur": 0.099,
+          "w": "and"
+        },
+        {
+          "g": 129.659,
+          "loc": 14.857,
+          "dur": 0.34,
+          "w": "taking"
+        },
+        {
+          "g": 130.01,
+          "loc": 15.208,
+          "dur": 0.055,
+          "w": "an"
+        },
+        {
+          "g": 130.076,
+          "loc": 15.274,
+          "dur": 0.57,
+          "w": "emergency"
+        },
+        {
+          "g": 130.657,
+          "loc": 15.855,
+          "dur": 1.305,
+          "w": "hundred-and-fifty-million-dollar"
+        },
+        {
+          "g": 131.973,
+          "loc": 17.171,
+          "dur": 0.45,
+          "w": "lifeline"
+        },
+        {
+          "g": 132.434,
+          "loc": 17.632,
+          "dur": 0.132,
+          "w": "from"
+        },
+        {
+          "g": 132.576,
+          "loc": 17.774,
+          "dur": 0.471,
+          "w": "Zomato"
+        },
+        {
+          "g": 133.278,
+          "loc": 18.476,
+          "dur": 0.175,
+          "w": "just"
+        },
+        {
+          "g": 133.464,
+          "loc": 18.662,
+          "dur": 0.066,
+          "w": "to"
+        },
+        {
+          "g": 133.541,
+          "loc": 18.739,
+          "dur": 0.186,
+          "w": "stay"
+        },
+        {
+          "g": 133.738,
+          "loc": 18.936,
+          "dur": 0.406,
+          "w": "alive"
+        }
+      ]
+    },
+    {
+      "cid": "ch07_acquisition",
+      "start": 134.832,
+      "end": 159.672,
+      "dur": 24.84,
+      "text": "In June twenty twenty-two, Zomato CEO Deepinder Goyal stepped in with the most controversial acquisition in Indian startup history. Zomato bought Blinkit in an all-stock deal for four thousand four hundred and forty-seven crore rupees... a forty-three percent haircut from its billion-dollar peak. Investors were furious. Zomato's share price crashed toward forty rupees, erasing billions in market value as analysts mocked the deal as catching a falling knife.",
+      "words": [
+        {
+          "g": 134.92,
+          "loc": 0.088,
+          "dur": 0.11,
+          "w": "In"
+        },
+        {
+          "g": 135.04,
+          "loc": 0.208,
+          "dur": 0.241,
+          "w": "June"
+        },
+        {
+          "g": 135.293,
+          "loc": 0.461,
+          "dur": 0.219,
+          "w": "twenty"
+        },
+        {
+          "g": 135.523,
+          "loc": 0.691,
+          "dur": 0.515,
+          "w": "twenty-two"
+        },
+        {
+          "g": 136.29,
+          "loc": 1.458,
+          "dur": 0.406,
+          "w": "Zomato"
+        },
+        {
+          "g": 136.707,
+          "loc": 1.875,
+          "dur": 0.493,
+          "w": "CEO"
+        },
+        {
+          "g": 137.376,
+          "loc": 2.544,
+          "dur": 0.559,
+          "w": "Deepinder"
+        },
+        {
+          "g": 137.946,
+          "loc": 3.114,
+          "dur": 0.274,
+          "w": "Goyal"
+        },
+        {
+          "g": 138.231,
+          "loc": 3.399,
+          "dur": 0.329,
+          "w": "stepped"
+        },
+        {
+          "g": 138.571,
+          "loc": 3.739,
+          "dur": 0.208,
+          "w": "in"
+        },
+        {
+          "g": 138.911,
+          "loc": 4.079,
+          "dur": 0.11,
+          "w": "with"
+        },
+        {
+          "g": 139.032,
+          "loc": 4.2,
+          "dur": 0.066,
+          "w": "the"
+        },
+        {
+          "g": 139.108,
+          "loc": 4.276,
+          "dur": 0.23,
+          "w": "most"
+        },
+        {
+          "g": 139.35,
+          "loc": 4.518,
+          "dur": 0.768,
+          "w": "controversial"
+        },
+        {
+          "g": 140.128,
+          "loc": 5.296,
+          "dur": 0.625,
+          "w": "acquisition"
+        },
+        {
+          "g": 140.918,
+          "loc": 6.086,
+          "dur": 0.099,
+          "w": "in"
+        },
+        {
+          "g": 141.027,
+          "loc": 6.195,
+          "dur": 0.362,
+          "w": "Indian"
+        },
+        {
+          "g": 141.4,
+          "loc": 6.568,
+          "dur": 0.307,
+          "w": "startup"
+        },
+        {
+          "g": 141.718,
+          "loc": 6.886,
+          "dur": 0.406,
+          "w": "history"
+        },
+        {
+          "g": 142.486,
+          "loc": 7.654,
+          "dur": 0.362,
+          "w": "Zomato"
+        },
+        {
+          "g": 142.858,
+          "loc": 8.026,
+          "dur": 0.252,
+          "w": "bought"
+        },
+        {
+          "g": 143.121,
+          "loc": 8.289,
+          "dur": 0.362,
+          "w": "Blinkit"
+        },
+        {
+          "g": 143.494,
+          "loc": 8.662,
+          "dur": 0.099,
+          "w": "in"
+        },
+        {
+          "g": 143.604,
+          "loc": 8.772,
+          "dur": 0.088,
+          "w": "an"
+        },
+        {
+          "g": 143.703,
+          "loc": 8.871,
+          "dur": 0.515,
+          "w": "all-stock"
+        },
+        {
+          "g": 144.229,
+          "loc": 9.397,
+          "dur": 0.241,
+          "w": "deal"
+        },
+        {
+          "g": 144.481,
+          "loc": 9.649,
+          "dur": 0.143,
+          "w": "for"
+        },
+        {
+          "g": 144.635,
+          "loc": 9.803,
+          "dur": 0.274,
+          "w": "four"
+        },
+        {
+          "g": 144.92,
+          "loc": 10.088,
+          "dur": 0.45,
+          "w": "thousand"
+        },
+        {
+          "g": 145.38,
+          "loc": 10.548,
+          "dur": 0.285,
+          "w": "four"
+        },
+        {
+          "g": 145.676,
+          "loc": 10.844,
+          "dur": 0.241,
+          "w": "hundred"
+        },
+        {
+          "g": 145.929,
+          "loc": 11.097,
+          "dur": 0.066,
+          "w": "and"
+        },
+        {
+          "g": 146.005,
+          "loc": 11.173,
+          "dur": 0.614,
+          "w": "forty-seven"
+        },
+        {
+          "g": 146.63,
+          "loc": 11.798,
+          "dur": 0.23,
+          "w": "crore"
+        },
+        {
+          "g": 146.871,
+          "loc": 12.039,
+          "dur": 0.482,
+          "w": "rupees"
+        },
+        {
+          "g": 147.65,
+          "loc": 12.818,
+          "dur": 0.044,
+          "w": "a"
+        },
+        {
+          "g": 147.705,
+          "loc": 12.873,
+          "dur": 0.493,
+          "w": "forty-three"
+        },
+        {
+          "g": 148.209,
+          "loc": 13.377,
+          "dur": 0.318,
+          "w": "percent"
+        },
+        {
+          "g": 148.538,
+          "loc": 13.706,
+          "dur": 0.406,
+          "w": "haircut"
+        },
+        {
+          "g": 148.955,
+          "loc": 14.123,
+          "dur": 0.143,
+          "w": "from"
+        },
+        {
+          "g": 149.108,
+          "loc": 14.276,
+          "dur": 0.132,
+          "w": "its"
+        },
+        {
+          "g": 149.251,
+          "loc": 14.419,
+          "dur": 0.526,
+          "w": "billion-dollar"
+        },
+        {
+          "g": 149.788,
+          "loc": 14.956,
+          "dur": 0.351,
+          "w": "peak"
+        },
+        {
+          "g": 150.49,
+          "loc": 15.658,
+          "dur": 0.428,
+          "w": "Investors"
+        },
+        {
+          "g": 150.928,
+          "loc": 16.096,
+          "dur": 0.099,
+          "w": "were"
+        },
+        {
+          "g": 151.038,
+          "loc": 16.206,
+          "dur": 0.57,
+          "w": "furious"
+        },
+        {
+          "g": 151.97,
+          "loc": 17.138,
+          "dur": 0.428,
+          "w": "Zomato's"
+        },
+        {
+          "g": 152.409,
+          "loc": 17.577,
+          "dur": 0.219,
+          "w": "share"
+        },
+        {
+          "g": 152.639,
+          "loc": 17.807,
+          "dur": 0.34,
+          "w": "price"
+        },
+        {
+          "g": 152.99,
+          "loc": 18.158,
+          "dur": 0.417,
+          "w": "crashed"
+        },
+        {
+          "g": 153.418,
+          "loc": 18.586,
+          "dur": 0.208,
+          "w": "toward"
+        },
+        {
+          "g": 153.637,
+          "loc": 18.805,
+          "dur": 0.318,
+          "w": "forty"
+        },
+        {
+          "g": 153.966,
+          "loc": 19.134,
+          "dur": 0.526,
+          "w": "rupees"
+        },
+        {
+          "g": 154.81,
+          "loc": 19.978,
+          "dur": 0.417,
+          "w": "erasing"
+        },
+        {
+          "g": 155.238,
+          "loc": 20.406,
+          "dur": 0.461,
+          "w": "billions"
+        },
+        {
+          "g": 155.709,
+          "loc": 20.877,
+          "dur": 0.088,
+          "w": "in"
+        },
+        {
+          "g": 155.808,
+          "loc": 20.976,
+          "dur": 0.296,
+          "w": "market"
+        },
+        {
+          "g": 156.115,
+          "loc": 21.283,
+          "dur": 0.373,
+          "w": "value"
+        },
+        {
+          "g": 156.499,
+          "loc": 21.667,
+          "dur": 0.132,
+          "w": "as"
+        },
+        {
+          "g": 156.641,
+          "loc": 21.809,
+          "dur": 0.45,
+          "w": "analysts"
+        },
+        {
+          "g": 157.102,
+          "loc": 22.27,
+          "dur": 0.351,
+          "w": "mocked"
+        },
+        {
+          "g": 157.464,
+          "loc": 22.632,
+          "dur": 0.088,
+          "w": "the"
+        },
+        {
+          "g": 157.562,
+          "loc": 22.73,
+          "dur": 0.296,
+          "w": "deal"
+        },
+        {
+          "g": 158.034,
+          "loc": 23.202,
+          "dur": 0.088,
+          "w": "as"
+        },
+        {
+          "g": 158.132,
+          "loc": 23.3,
+          "dur": 0.362,
+          "w": "catching"
+        },
+        {
+          "g": 158.505,
+          "loc": 23.673,
+          "dur": 0.044,
+          "w": "a"
+        },
+        {
+          "g": 158.56,
+          "loc": 23.728,
+          "dur": 0.384,
+          "w": "falling"
+        },
+        {
+          "g": 158.955,
+          "loc": 24.123,
+          "dur": 0.384,
+          "w": "knife"
+        }
+      ]
+    },
+    {
+      "cid": "ch08_physics",
+      "start": 160.022,
+      "end": 181.838,
+      "dur": 21.816,
+      "text": "Critics thought ten-minute delivery meant riders driving recklessly through traffic. They misunderstood the engineering. Blinkit did not speed up the bike... it shrank the distance. By placing compact dark stores every one point five kilometers, and mapping high-velocity shelves by pick frequency, orders were packed in ninety seconds. The rider only traveled one point eight kilometers at fifteen kilometers an hour.",
+      "words": [
+        {
+          "g": 160.11,
+          "loc": 0.088,
+          "dur": 0.274,
+          "w": "Critics"
+        },
+        {
+          "g": 160.395,
+          "loc": 0.373,
+          "dur": 0.285,
+          "w": "thought"
+        },
+        {
+          "g": 160.691,
+          "loc": 0.669,
+          "dur": 0.406,
+          "w": "ten-minute"
+        },
+        {
+          "g": 161.108,
+          "loc": 1.086,
+          "dur": 0.471,
+          "w": "delivery"
+        },
+        {
+          "g": 161.7,
+          "loc": 1.678,
+          "dur": 0.219,
+          "w": "meant"
+        },
+        {
+          "g": 161.93,
+          "loc": 1.908,
+          "dur": 0.373,
+          "w": "riders"
+        },
+        {
+          "g": 162.314,
+          "loc": 2.292,
+          "dur": 0.45,
+          "w": "driving"
+        },
+        {
+          "g": 162.774,
+          "loc": 2.752,
+          "dur": 0.526,
+          "w": "recklessly"
+        },
+        {
+          "g": 163.366,
+          "loc": 3.344,
+          "dur": 0.153,
+          "w": "through"
+        },
+        {
+          "g": 163.531,
+          "loc": 3.509,
+          "dur": 0.493,
+          "w": "traffic"
+        },
+        {
+          "g": 164.397,
+          "loc": 4.375,
+          "dur": 0.055,
+          "w": "They"
+        },
+        {
+          "g": 164.463,
+          "loc": 4.441,
+          "dur": 0.702,
+          "w": "misunderstood"
+        },
+        {
+          "g": 165.176,
+          "loc": 5.154,
+          "dur": 0.066,
+          "w": "the"
+        },
+        {
+          "g": 165.252,
+          "loc": 5.23,
+          "dur": 0.57,
+          "w": "engineering"
+        },
+        {
+          "g": 166.195,
+          "loc": 6.173,
+          "dur": 0.307,
+          "w": "Blinkit"
+        },
+        {
+          "g": 166.557,
+          "loc": 6.535,
+          "dur": 0.132,
+          "w": "did"
+        },
+        {
+          "g": 166.7,
+          "loc": 6.678,
+          "dur": 0.197,
+          "w": "not"
+        },
+        {
+          "g": 166.908,
+          "loc": 6.886,
+          "dur": 0.296,
+          "w": "speed"
+        },
+        {
+          "g": 167.215,
+          "loc": 7.193,
+          "dur": 0.11,
+          "w": "up"
+        },
+        {
+          "g": 167.336,
+          "loc": 7.314,
+          "dur": 0.066,
+          "w": "the"
+        },
+        {
+          "g": 167.412,
+          "loc": 7.39,
+          "dur": 0.318,
+          "w": "bike"
+        },
+        {
+          "g": 168.004,
+          "loc": 7.982,
+          "dur": 0.066,
+          "w": "it"
+        },
+        {
+          "g": 168.081,
+          "loc": 8.059,
+          "dur": 0.252,
+          "w": "shrank"
+        },
+        {
+          "g": 168.344,
+          "loc": 8.322,
+          "dur": 0.066,
+          "w": "the"
+        },
+        {
+          "g": 168.421,
+          "loc": 8.399,
+          "dur": 0.493,
+          "w": "distance"
+        },
+        {
+          "g": 169.276,
+          "loc": 9.254,
+          "dur": 0.088,
+          "w": "By"
+        },
+        {
+          "g": 169.375,
+          "loc": 9.353,
+          "dur": 0.362,
+          "w": "placing"
+        },
+        {
+          "g": 169.748,
+          "loc": 9.726,
+          "dur": 0.548,
+          "w": "compact"
+        },
+        {
+          "g": 170.307,
+          "loc": 10.285,
+          "dur": 0.197,
+          "w": "dark"
+        },
+        {
+          "g": 170.515,
+          "loc": 10.493,
+          "dur": 0.384,
+          "w": "stores"
+        },
+        {
+          "g": 171.031,
+          "loc": 11.009,
+          "dur": 0.241,
+          "w": "every"
+        },
+        {
+          "g": 171.283,
+          "loc": 11.261,
+          "dur": 0.208,
+          "w": "one"
+        },
+        {
+          "g": 171.502,
+          "loc": 11.48,
+          "dur": 0.274,
+          "w": "point"
+        },
+        {
+          "g": 171.787,
+          "loc": 11.765,
+          "dur": 0.274,
+          "w": "five"
+        },
+        {
+          "g": 172.072,
+          "loc": 12.05,
+          "dur": 0.603,
+          "w": "kilometers"
+        },
+        {
+          "g": 172.884,
+          "loc": 12.862,
+          "dur": 0.121,
+          "w": "and"
+        },
+        {
+          "g": 173.015,
+          "loc": 12.993,
+          "dur": 0.307,
+          "w": "mapping"
+        },
+        {
+          "g": 173.333,
+          "loc": 13.311,
+          "dur": 0.603,
+          "w": "high-velocity"
+        },
+        {
+          "g": 173.947,
+          "loc": 13.925,
+          "dur": 0.34,
+          "w": "shelves"
+        },
+        {
+          "g": 174.298,
+          "loc": 14.276,
+          "dur": 0.132,
+          "w": "by"
+        },
+        {
+          "g": 174.441,
+          "loc": 14.419,
+          "dur": 0.208,
+          "w": "pick"
+        },
+        {
+          "g": 174.66,
+          "loc": 14.638,
+          "dur": 0.592,
+          "w": "frequency"
+        },
+        {
+          "g": 175.526,
+          "loc": 15.504,
+          "dur": 0.274,
+          "w": "orders"
+        },
+        {
+          "g": 175.811,
+          "loc": 15.789,
+          "dur": 0.11,
+          "w": "were"
+        },
+        {
+          "g": 175.932,
+          "loc": 15.91,
+          "dur": 0.373,
+          "w": "packed"
+        },
+        {
+          "g": 176.316,
+          "loc": 16.294,
+          "dur": 0.132,
+          "w": "in"
+        },
+        {
+          "g": 176.458,
+          "loc": 16.436,
+          "dur": 0.263,
+          "w": "ninety"
+        },
+        {
+          "g": 176.733,
+          "loc": 16.711,
+          "dur": 0.537,
+          "w": "seconds"
+        },
+        {
+          "g": 177.643,
+          "loc": 17.621,
+          "dur": 0.044,
+          "w": "The"
+        },
+        {
+          "g": 177.697,
+          "loc": 17.675,
+          "dur": 0.351,
+          "w": "rider"
+        },
+        {
+          "g": 178.059,
+          "loc": 18.037,
+          "dur": 0.252,
+          "w": "only"
+        },
+        {
+          "g": 178.322,
+          "loc": 18.3,
+          "dur": 0.439,
+          "w": "traveled"
+        },
+        {
+          "g": 178.772,
+          "loc": 18.75,
+          "dur": 0.23,
+          "w": "one"
+        },
+        {
+          "g": 179.013,
+          "loc": 18.991,
+          "dur": 0.285,
+          "w": "point"
+        },
+        {
+          "g": 179.375,
+          "loc": 19.353,
+          "dur": 0.143,
+          "w": "eight"
+        },
+        {
+          "g": 179.529,
+          "loc": 19.507,
+          "dur": 0.537,
+          "w": "kilometers"
+        },
+        {
+          "g": 180.077,
+          "loc": 20.055,
+          "dur": 0.088,
+          "w": "at"
+        },
+        {
+          "g": 180.176,
+          "loc": 20.154,
+          "dur": 0.439,
+          "w": "fifteen"
+        },
+        {
+          "g": 180.625,
+          "loc": 20.603,
+          "dur": 0.471,
+          "w": "kilometers"
+        },
+        {
+          "g": 181.108,
+          "loc": 21.086,
+          "dur": 0.066,
+          "w": "an"
+        },
+        {
+          "g": 181.184,
+          "loc": 21.162,
+          "dur": 0.329,
+          "w": "hour"
+        }
+      ]
+    },
+    {
+      "cid": "ch09_margins",
+      "start": 182.188,
+      "end": 204.772,
+      "dur": 22.584,
+      "text": "Next came the profit engine. Blinkit stopped being just a milk-and-onion app. It added high-margin electronics, cosmetics, festive pooja kits, and emergency gifts. Average order values surged past six hundred and sixty rupees. Brands began paying hundreds of crores just to advertise inside the Blinkit search bar. In March twenty twenty-four... Blinkit shocked the market by turning Adjusted EBITDA positive.",
+      "words": [
+        {
+          "g": 182.276,
+          "loc": 0.088,
+          "dur": 0.208,
+          "w": "Next"
+        },
+        {
+          "g": 182.495,
+          "loc": 0.307,
+          "dur": 0.153,
+          "w": "came"
+        },
+        {
+          "g": 182.659,
+          "loc": 0.471,
+          "dur": 0.066,
+          "w": "the"
+        },
+        {
+          "g": 182.736,
+          "loc": 0.548,
+          "dur": 0.351,
+          "w": "profit"
+        },
+        {
+          "g": 183.098,
+          "loc": 0.91,
+          "dur": 0.252,
+          "w": "engine"
+        },
+        {
+          "g": 183.723,
+          "loc": 1.535,
+          "dur": 0.263,
+          "w": "Blinkit"
+        },
+        {
+          "g": 183.997,
+          "loc": 1.809,
+          "dur": 0.307,
+          "w": "stopped"
+        },
+        {
+          "g": 184.315,
+          "loc": 2.127,
+          "dur": 0.263,
+          "w": "being"
+        },
+        {
+          "g": 184.677,
+          "loc": 2.489,
+          "dur": 0.263,
+          "w": "just"
+        },
+        {
+          "g": 184.951,
+          "loc": 2.763,
+          "dur": 0.033,
+          "w": "a"
+        },
+        {
+          "g": 184.995,
+          "loc": 2.807,
+          "dur": 0.603,
+          "w": "milk-and-onion"
+        },
+        {
+          "g": 185.609,
+          "loc": 3.421,
+          "dur": 0.274,
+          "w": "app."
+        },
+        {
+          "g": 186.245,
+          "loc": 4.057,
+          "dur": 0.11,
+          "w": "It"
+        },
+        {
+          "g": 186.366,
+          "loc": 4.178,
+          "dur": 0.241,
+          "w": "added"
+        },
+        {
+          "g": 186.618,
+          "loc": 4.43,
+          "dur": 0.482,
+          "w": "high-margin"
+        },
+        {
+          "g": 187.111,
+          "loc": 4.923,
+          "dur": 0.735,
+          "w": "electronics"
+        },
+        {
+          "g": 188.01,
+          "loc": 5.822,
+          "dur": 0.636,
+          "w": "cosmetics"
+        },
+        {
+          "g": 188.822,
+          "loc": 6.634,
+          "dur": 0.362,
+          "w": "festive"
+        },
+        {
+          "g": 189.195,
+          "loc": 7.007,
+          "dur": 0.351,
+          "w": "pooja"
+        },
+        {
+          "g": 189.556,
+          "loc": 7.368,
+          "dur": 0.406,
+          "w": "kits"
+        },
+        {
+          "g": 190.17,
+          "loc": 7.982,
+          "dur": 0.099,
+          "w": "and"
+        },
+        {
+          "g": 190.28,
+          "loc": 8.092,
+          "dur": 0.45,
+          "w": "emergency"
+        },
+        {
+          "g": 190.741,
+          "loc": 8.553,
+          "dur": 0.439,
+          "w": "gifts"
+        },
+        {
+          "g": 191.541,
+          "loc": 9.353,
+          "dur": 0.274,
+          "w": "Average"
+        },
+        {
+          "g": 191.826,
+          "loc": 9.638,
+          "dur": 0.208,
+          "w": "order"
+        },
+        {
+          "g": 192.045,
+          "loc": 9.857,
+          "dur": 0.439,
+          "w": "values"
+        },
+        {
+          "g": 192.572,
+          "loc": 10.384,
+          "dur": 0.351,
+          "w": "surged"
+        },
+        {
+          "g": 192.934,
+          "loc": 10.746,
+          "dur": 0.362,
+          "w": "past"
+        },
+        {
+          "g": 193.306,
+          "loc": 11.118,
+          "dur": 0.296,
+          "w": "six"
+        },
+        {
+          "g": 193.613,
+          "loc": 11.425,
+          "dur": 0.329,
+          "w": "hundred"
+        },
+        {
+          "g": 193.953,
+          "loc": 11.765,
+          "dur": 0.077,
+          "w": "and"
+        },
+        {
+          "g": 194.041,
+          "loc": 11.853,
+          "dur": 0.318,
+          "w": "sixty"
+        },
+        {
+          "g": 194.37,
+          "loc": 12.182,
+          "dur": 0.515,
+          "w": "rupees"
+        },
+        {
+          "g": 195.258,
+          "loc": 13.07,
+          "dur": 0.23,
+          "w": "Brands"
+        },
+        {
+          "g": 195.499,
+          "loc": 13.311,
+          "dur": 0.318,
+          "w": "began"
+        },
+        {
+          "g": 195.828,
+          "loc": 13.64,
+          "dur": 0.296,
+          "w": "paying"
+        },
+        {
+          "g": 196.135,
+          "loc": 13.947,
+          "dur": 0.395,
+          "w": "hundreds"
+        },
+        {
+          "g": 196.541,
+          "loc": 14.353,
+          "dur": 0.077,
+          "w": "of"
+        },
+        {
+          "g": 196.629,
+          "loc": 14.441,
+          "dur": 0.45,
+          "w": "crores"
+        },
+        {
+          "g": 197.188,
+          "loc": 15,
+          "dur": 0.186,
+          "w": "just"
+        },
+        {
+          "g": 197.385,
+          "loc": 15.197,
+          "dur": 0.088,
+          "w": "to"
+        },
+        {
+          "g": 197.484,
+          "loc": 15.296,
+          "dur": 0.603,
+          "w": "advertise"
+        },
+        {
+          "g": 198.098,
+          "loc": 15.91,
+          "dur": 0.461,
+          "w": "inside"
+        },
+        {
+          "g": 198.57,
+          "loc": 16.382,
+          "dur": 0.077,
+          "w": "the"
+        },
+        {
+          "g": 198.657,
+          "loc": 16.469,
+          "dur": 0.274,
+          "w": "Blinkit"
+        },
+        {
+          "g": 198.942,
+          "loc": 16.754,
+          "dur": 0.241,
+          "w": "search"
+        },
+        {
+          "g": 199.195,
+          "loc": 17.007,
+          "dur": 0.296,
+          "w": "bar"
+        },
+        {
+          "g": 199.852,
+          "loc": 17.664,
+          "dur": 0.099,
+          "w": "In"
+        },
+        {
+          "g": 199.962,
+          "loc": 17.774,
+          "dur": 0.34,
+          "w": "March"
+        },
+        {
+          "g": 200.335,
+          "loc": 18.147,
+          "dur": 0.23,
+          "w": "twenty"
+        },
+        {
+          "g": 200.576,
+          "loc": 18.388,
+          "dur": 0.537,
+          "w": "twenty-four"
+        },
+        {
+          "g": 201.486,
+          "loc": 19.298,
+          "dur": 0.274,
+          "w": "Blinkit"
+        },
+        {
+          "g": 201.771,
+          "loc": 19.583,
+          "dur": 0.329,
+          "w": "shocked"
+        },
+        {
+          "g": 202.111,
+          "loc": 19.923,
+          "dur": 0.077,
+          "w": "the"
+        },
+        {
+          "g": 202.199,
+          "loc": 20.011,
+          "dur": 0.362,
+          "w": "market"
+        },
+        {
+          "g": 202.572,
+          "loc": 20.384,
+          "dur": 0.121,
+          "w": "by"
+        },
+        {
+          "g": 202.703,
+          "loc": 20.515,
+          "dur": 0.34,
+          "w": "turning"
+        },
+        {
+          "g": 203.054,
+          "loc": 20.866,
+          "dur": 0.471,
+          "w": "Adjusted"
+        },
+        {
+          "g": 203.657,
+          "loc": 21.469,
+          "dur": 0.285,
+          "w": "EBITDA"
+        },
+        {
+          "g": 203.953,
+          "loc": 21.765,
+          "dur": 0.493,
+          "w": "positive"
+        }
+      ]
+    },
+    {
+      "cid": "ch10_empire",
+      "start": 205.172,
+      "end": 230.396,
+      "dur": 25.224,
+      "text": "By twenty twenty-six, the ugly duckling had overtaken its parent. Under the rebranded corporate giant Eternal, Blinkit scaled to over two thousand two hundred dark stores... commanding forty-six percent of India's eleven-billion-dollar quick-commerce market, ahead of Zepto and Swiggy Instamart. What began as a desperate pivot at the edge of bankruptcy proved one timeless rule of business... when your old model is dying, only the bold enough to cannibalize themselves survive.",
+      "words": [
+        {
+          "g": 205.26,
+          "loc": 0.088,
+          "dur": 0.066,
+          "w": "By"
+        },
+        {
+          "g": 205.336,
+          "loc": 0.164,
+          "dur": 0.241,
+          "w": "twenty"
+        },
+        {
+          "g": 205.589,
+          "loc": 0.417,
+          "dur": 0.691,
+          "w": "twenty-six"
+        },
+        {
+          "g": 206.466,
+          "loc": 1.294,
+          "dur": 0.11,
+          "w": "the"
+        },
+        {
+          "g": 206.586,
+          "loc": 1.414,
+          "dur": 0.274,
+          "w": "ugly"
+        },
+        {
+          "g": 206.872,
+          "loc": 1.7,
+          "dur": 0.395,
+          "w": "duckling"
+        },
+        {
+          "g": 207.277,
+          "loc": 2.105,
+          "dur": 0.132,
+          "w": "had"
+        },
+        {
+          "g": 207.464,
+          "loc": 2.292,
+          "dur": 0.526,
+          "w": "overtaken"
+        },
+        {
+          "g": 208.001,
+          "loc": 2.829,
+          "dur": 0.11,
+          "w": "its"
+        },
+        {
+          "g": 208.122,
+          "loc": 2.95,
+          "dur": 0.406,
+          "w": "parent"
+        },
+        {
+          "g": 208.889,
+          "loc": 3.717,
+          "dur": 0.175,
+          "w": "Under"
+        },
+        {
+          "g": 209.076,
+          "loc": 3.904,
+          "dur": 0.11,
+          "w": "the"
+        },
+        {
+          "g": 209.196,
+          "loc": 4.024,
+          "dur": 0.614,
+          "w": "rebranded"
+        },
+        {
+          "g": 209.821,
+          "loc": 4.649,
+          "dur": 0.45,
+          "w": "corporate"
+        },
+        {
+          "g": 210.282,
+          "loc": 5.11,
+          "dur": 0.307,
+          "w": "giant"
+        },
+        {
+          "g": 210.6,
+          "loc": 5.428,
+          "dur": 0.417,
+          "w": "Eternal"
+        },
+        {
+          "g": 211.258,
+          "loc": 6.086,
+          "dur": 0.318,
+          "w": "Blinkit"
+        },
+        {
+          "g": 211.586,
+          "loc": 6.414,
+          "dur": 0.373,
+          "w": "scaled"
+        },
+        {
+          "g": 211.97,
+          "loc": 6.798,
+          "dur": 0.132,
+          "w": "to"
+        },
+        {
+          "g": 212.113,
+          "loc": 6.941,
+          "dur": 0.23,
+          "w": "over"
+        },
+        {
+          "g": 212.354,
+          "loc": 7.182,
+          "dur": 0.263,
+          "w": "two"
+        },
+        {
+          "g": 212.628,
+          "loc": 7.456,
+          "dur": 0.45,
+          "w": "thousand"
+        },
+        {
+          "g": 213.154,
+          "loc": 7.982,
+          "dur": 0.175,
+          "w": "two"
+        },
+        {
+          "g": 213.341,
+          "loc": 8.169,
+          "dur": 0.252,
+          "w": "hundred"
+        },
+        {
+          "g": 213.604,
+          "loc": 8.432,
+          "dur": 0.197,
+          "w": "dark"
+        },
+        {
+          "g": 213.812,
+          "loc": 8.64,
+          "dur": 0.471,
+          "w": "stores"
+        },
+        {
+          "g": 214.536,
+          "loc": 9.364,
+          "dur": 0.406,
+          "w": "commanding"
+        },
+        {
+          "g": 214.953,
+          "loc": 9.781,
+          "dur": 0.581,
+          "w": "forty-six"
+        },
+        {
+          "g": 215.545,
+          "loc": 10.373,
+          "dur": 0.406,
+          "w": "percent"
+        },
+        {
+          "g": 215.961,
+          "loc": 10.789,
+          "dur": 0.077,
+          "w": "of"
+        },
+        {
+          "g": 216.049,
+          "loc": 10.877,
+          "dur": 0.395,
+          "w": "India's"
+        },
+        {
+          "g": 216.455,
+          "loc": 11.283,
+          "dur": 1.042,
+          "w": "eleven-billion-dollar"
+        },
+        {
+          "g": 217.508,
+          "loc": 12.336,
+          "dur": 0.548,
+          "w": "quick-commerce"
+        },
+        {
+          "g": 218.067,
+          "loc": 12.895,
+          "dur": 0.34,
+          "w": "market"
+        },
+        {
+          "g": 218.736,
+          "loc": 13.564,
+          "dur": 0.186,
+          "w": "ahead"
+        },
+        {
+          "g": 218.933,
+          "loc": 13.761,
+          "dur": 0.077,
+          "w": "of"
+        },
+        {
+          "g": 219.021,
+          "loc": 13.849,
+          "dur": 0.482,
+          "w": "Zepto"
+        },
+        {
+          "g": 219.69,
+          "loc": 14.518,
+          "dur": 0.077,
+          "w": "and"
+        },
+        {
+          "g": 219.777,
+          "loc": 14.605,
+          "dur": 0.318,
+          "w": "Swiggy"
+        },
+        {
+          "g": 220.106,
+          "loc": 14.934,
+          "dur": 0.461,
+          "w": "Instamart"
+        },
+        {
+          "g": 220.929,
+          "loc": 15.757,
+          "dur": 0.132,
+          "w": "What"
+        },
+        {
+          "g": 221.071,
+          "loc": 15.899,
+          "dur": 0.362,
+          "w": "began"
+        },
+        {
+          "g": 221.444,
+          "loc": 16.272,
+          "dur": 0.11,
+          "w": "as"
+        },
+        {
+          "g": 221.565,
+          "loc": 16.393,
+          "dur": 0.088,
+          "w": "a"
+        },
+        {
+          "g": 221.707,
+          "loc": 16.535,
+          "dur": 0.406,
+          "w": "desperate"
+        },
+        {
+          "g": 222.124,
+          "loc": 16.952,
+          "dur": 0.285,
+          "w": "pivot"
+        },
+        {
+          "g": 222.42,
+          "loc": 17.248,
+          "dur": 0.066,
+          "w": "at"
+        },
+        {
+          "g": 222.497,
+          "loc": 17.325,
+          "dur": 0.077,
+          "w": "the"
+        },
+        {
+          "g": 222.584,
+          "loc": 17.412,
+          "dur": 0.252,
+          "w": "edge"
+        },
+        {
+          "g": 222.847,
+          "loc": 17.675,
+          "dur": 0.088,
+          "w": "of"
+        },
+        {
+          "g": 222.946,
+          "loc": 17.774,
+          "dur": 0.592,
+          "w": "bankruptcy"
+        },
+        {
+          "g": 223.549,
+          "loc": 18.377,
+          "dur": 0.373,
+          "w": "proved"
+        },
+        {
+          "g": 223.933,
+          "loc": 18.761,
+          "dur": 0.285,
+          "w": "one"
+        },
+        {
+          "g": 224.229,
+          "loc": 19.057,
+          "dur": 0.482,
+          "w": "timeless"
+        },
+        {
+          "g": 224.722,
+          "loc": 19.55,
+          "dur": 0.208,
+          "w": "rule"
+        },
+        {
+          "g": 224.942,
+          "loc": 19.77,
+          "dur": 0.088,
+          "w": "of"
+        },
+        {
+          "g": 225.04,
+          "loc": 19.868,
+          "dur": 0.515,
+          "w": "business"
+        },
+        {
+          "g": 225.83,
+          "loc": 20.658,
+          "dur": 0.121,
+          "w": "when"
+        },
+        {
+          "g": 225.961,
+          "loc": 20.789,
+          "dur": 0.175,
+          "w": "your"
+        },
+        {
+          "g": 226.148,
+          "loc": 20.976,
+          "dur": 0.186,
+          "w": "old"
+        },
+        {
+          "g": 226.345,
+          "loc": 21.173,
+          "dur": 0.274,
+          "w": "model"
+        },
+        {
+          "g": 226.63,
+          "loc": 21.458,
+          "dur": 0.099,
+          "w": "is"
+        },
+        {
+          "g": 226.74,
+          "loc": 21.568,
+          "dur": 0.406,
+          "w": "dying"
+        },
+        {
+          "g": 227.529,
+          "loc": 22.357,
+          "dur": 0.164,
+          "w": "only"
+        },
+        {
+          "g": 227.705,
+          "loc": 22.533,
+          "dur": 0.121,
+          "w": "the"
+        },
+        {
+          "g": 227.836,
+          "loc": 22.664,
+          "dur": 0.274,
+          "w": "bold"
+        },
+        {
+          "g": 228.122,
+          "loc": 22.95,
+          "dur": 0.274,
+          "w": "enough"
+        },
+        {
+          "g": 228.407,
+          "loc": 23.235,
+          "dur": 0.088,
+          "w": "to"
+        },
+        {
+          "g": 228.505,
+          "loc": 23.333,
+          "dur": 0.614,
+          "w": "cannibalize"
+        },
+        {
+          "g": 229.13,
+          "loc": 23.958,
+          "dur": 0.439,
+          "w": "themselves"
+        },
+        {
+          "g": 229.58,
+          "loc": 24.408,
+          "dur": 0.493,
+          "w": "survive"
+        }
+      ]
+    }
+  ]
+}
