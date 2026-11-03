@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { Documentary } from "./components/Documentary";
 import { TransitionsShowcaseReel } from "./components/blinkit/FeaturedTransitions";
+import { TransitionsVol2ShowcaseReel } from "./components/blinkit/FeaturedTransitionsVol2";
 import { evaluateXCamera, SCENES, TOTAL_DURATION } from "./lib/timeline";
 import wordMapData from "./lib/word_map.json";
 
@@ -112,13 +113,20 @@ export default function App() {
     return params.get("showcase") === "1";
   }, []);
 
+  const isShowcaseVol2Route = useMemo(() => {
+    if (typeof window === "undefined") return false;
+    const params = new URLSearchParams(window.location.search);
+    return params.get("showcase") === "2";
+  }, []);
+
   const isRenderRoute = useMemo(() => {
     if (typeof window === "undefined") return false;
     const params = new URLSearchParams(window.location.search);
     return (
       window.location.pathname.startsWith("/render-documentary") ||
       params.get("render") === "1" ||
-      params.get("showcase") === "1"
+      params.get("showcase") === "1" ||
+      params.get("showcase") === "2"
     );
   }, []);
 
@@ -308,6 +316,8 @@ export default function App() {
       <main className="relative h-[1080px] w-[1920px] overflow-hidden bg-black">
         {isShowcaseRoute ? (
           <TransitionsShowcaseReel t={currentTime} />
+        ) : isShowcaseVol2Route ? (
+          <TransitionsVol2ShowcaseReel t={currentTime} />
         ) : (
           <Documentary t={currentTime} />
         )}

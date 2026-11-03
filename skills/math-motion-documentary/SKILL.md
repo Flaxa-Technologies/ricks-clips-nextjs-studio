@@ -809,3 +809,37 @@ Import and weave these **7 reusable, deterministic transition and motion rigs** 
 - **3D-Edged Beveled Cards with White Inner Pedestals** (`box-shadow: 0 14px 0 #09090b`) for competitor/brand cards (Amazon, Flipkart, BigBasket, etc.) so dark logos never blend into dark backgrounds.
 - **Real Founder Portraits & Documentary Scene Photos**: Always integrate real executive portrait cutouts (with `CEO` / `CO-FOUNDER` pills) and authentic documentary photography (e.g., kirana storefronts, dark store fulfillment aisles).
 - **Option 3 Soundtrack (`resources/build_soundtrack_opt3.py`)**: Synthesize a **116 BPM Modern Ambient Momentum** score (Vox / Johnny Harris warm Rhodes pads + soft acoustic kick + 8th-note shaker, low-pass filtered at 2,800 Hz, ducked -18 dB under speech) with stereo transition whooshes.
+
+---
+
+## 24. Volume 2 Motion Rigs (`resources/FeaturedTransitionsVol2.tsx`) & "What to Show When" Matrix
+
+### Volume 2 Pre-Made Rigs (`FeaturedTransitionsVol2.tsx`)
+8. **`RedThreadEvidenceBoardRig` (Vox / AEffecto Investigative Detective Corkboard)**
+   - Polaroid frames taped at the top with translucent masking tape (`bg-amber-100/80 rotate-2`), 4 monochrome archival evidence photos around a central founder Polaroid, red pushpins (`#ef4444`), self-drawing crimson yarn web (`strokeDashoffset`), tilted black Dymo embossed tape stamp (`FOUNDER & CEO`), hand-drawn red marker spiral loop around the portrait, and diagonal volumetric window-blind shadow bars.
+9. **`VoxScreenRecording3DBrowser` (Motion Nations 3D Search-to-Article Flip)**
+   - Phase A: 3D tilted Google Search bar typing query character-by-character with live autocomplete dropdown suggestions.
+   - Phase B: 3D perspective card flip into an encyclopedia/filing browser card where multi-line yellow highlighter sweeps (`#fef08a`) and a hand-drawn red ink oval isolate the key market-share disclosure.
+10. **`MagnatesFlowchartAndOrbitBadgeRig` (Vane Motion Spinning Circular Text Badge + Orthogonal Flowchart)**
+    - Central parent emblem encircled by a continuously rotating circular `<textPath>` SVG badge (`ETERNAL CORPORATE EMPIRE • MARKET LEADER •`), feeding 90-degree rounded-elbow orthogonal flowchart pipes into 3D subsidiary cards (`BLINKIT`, `ZOMATO`, `HYPERPURE`).
+11. **`ThreeDCameraTimelineCorridor` (ColdFusion / MagnatesMedia Z-Space Time-Travel Fly-Through)**
+    - True 3D camera dolly (`camZ` advancing from `-150` to `1750` inside `perspective: 900px`) flying past historical year portals (`2013 -> 2018 -> 2021 -> 2026`) positioned in Z-space (`translate3d(xOffset, yOffset, -relZ)`), with distance-based depth-of-field blur $\sigma_{\text{DOF}} = \text{clamp}(|\text{relZ} - 180| / 360, 0, 8\text{ px})$.
+12. **`AppleBentoGridShowcaseRig` (Apple Keynote Modular Bento Grid + Sequential Focus Wave)**
+    - 5 asymmetrical glassmorphic Bento cards springing in via staggered harmonic oscillators (`idx * 0.10s`) with a sequential `ACTIVE FOCUS` spotlight wave (`scale(1.025)` + glowing border) touring each card.
+13. **`SplitScreenVersusAndCollageRig` (Diagonal Clash + Liquid Bezier Curtain Wipe + 12fps Stop-Motion Cutout)**
+    - Opposing diagonal split-screen showdown (`polygon(0 0, 56% 0, 44% 100%, 0 100%)` vs. right half) with central `VS` medallion, wiped upward by a **Liquid Bezier Curtain Wave** (`M 0 yEdge Q 960 yBelly 1920 yEdge L 1920 1080 L 0 1080 Z`) into a **12 fps `posterizeTime(localT, 12)` Stop-Motion Torn-Paper Cutout Card**.
+
+### "What to Show When" — Documentary Visual Choreography Matrix
+
+| Narrative Trigger in Script | Visual Rig to Deploy | Best Transition Out |
+| :--- | :--- | :--- |
+| **1. Hook Paradox / Thesis Statement** | `BallSplineCometTransition` (Vol. 1) | Radial Iris Circle Wipe (`clip-path: circle()`) |
+| **2. Introducing a Founder / CEO Empire** | `FounderEmpireOrbitRig` (Vol. 1) | Zoom-In Match Cut into chest emblem (`CoinFlipRadialDialRig`) |
+| **3. Crisis, Scandal, or Secret Deal** | `RedThreadEvidenceBoardRig` (Vol. 2) | 5-Blade Mechanical Shutter Wipe (`ShutterSliceWipeTransition`) |
+| **4. Proving a Fact via Search / Filing / Press** | `VoxScreenRecording3DBrowser` (Vol. 2) or `NewspaperMicrofilmHighlighter` (Vol. 1) | 3D Perspective Card Flip (`rotateY`) |
+| **5. Parent Company & Subsidiary Ecosystem** | `MagnatesFlowchartAndOrbitBadgeRig` (Vol. 2) or `CoinFlipRadialDialRig` (Vol. 1) | Horizontal Whip-Pan |
+| **6. Multi-Year Historical Evolution** | `ThreeDCameraTimelineCorridor` (Vol. 2) | Portal Fly-Through (final year card fills frame) |
+| **7. Geographic Grid / Supply Chain / Dark Stores** | `Isometric3DCameraMapFlyover` (Vol. 1) | Geometric Match-Cut (`MatchCutMorphTransition`) |
+| **8. Multi-Metric Operating System Breakdown** | `AppleBentoGridShowcaseRig` (Vol. 2) | Liquid Bezier Curtain Wave |
+| **9. Head-to-Head Competitor Showdown** | `SplitScreenVersusAndCollageRig` (Vol. 2) | Liquid Bezier Wave Wipe into 12fps Stop-Motion Collage |
+| **10. Climax Financial / Revenue Counter** | `KineticSlotMachineOdometer` (Vol. 1) | 5-Blade Shutter Wipe or Iris Close |

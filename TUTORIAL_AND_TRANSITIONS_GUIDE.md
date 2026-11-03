@@ -1,96 +1,103 @@
-# Mathematical Motion Graphics & Transitions Tutorial (Node 2 Agent Guide)
+# Mathematical Motion Graphics, Transitions & "What to Show When" Master Guide (Node 2 Agent)
 
-This guide explains the exact mathematics, React/SVG architecture, and customization patterns for every pre-made transition and motion rig in [`src/components/blinkit/FeaturedTransitions.tsx`](./src/components/blinkit/FeaturedTransitions.tsx).
+This guide explains the exact mathematics, React/SVG architecture, and **"What to Show When"** narrative choreography for all **13 Pre-Made Motion Graphics & Transitions** across:
+- **Volume 1**: [`src/components/blinkit/FeaturedTransitions.tsx`](./src/components/blinkit/FeaturedTransitions.tsx) (`/?showcase=1`)
+- **Volume 2**: [`src/components/blinkit/FeaturedTransitionsVol2.tsx`](./src/components/blinkit/FeaturedTransitionsVol2.tsx) (`/?showcase=2`)
 
 ---
 
-## 1. Ball & Tapered Line Spline Transition (`BallSplineCometTransition`)
+## PART I: "WHAT TO SHOW WHEN" — THE DOCUMENTARY VISUAL CHOREOGRAPHY PLAYBOOK
+
+Great documentary editors (*Vox*, *Johnny Harris*, *MagnatesMedia*, *ColdFusion*, *Pooya Taher*, *Motion Nations*) never pick animations randomly. Every sentence in a documentary script falls into one of **10 Narrative Beat Archetypes**.
+
+Use this decision matrix to map every sentence in your script to the exact visual rig, camera physics, background polarity, and transition wipe:
+
+| # | When the Script / Narrator Is Saying... | Show This Visual Rig | Why It Works Psychologically | Best Transition Out |
+| :- | :--- | :--- | :--- | :--- |
+| **1** | **The Hook Paradox / Bold Thesis**<br>*"How did a company losing ₹200 Cr a month suddenly conquer India?"* | **`BallSplineCometTransition`** (Vol 1, Rig 1) | The high-velocity spline ball with a stretching comet tail hooks the eye in `< 0.5s`, laser-wipes the thesis statement, and flips the entire world from Dark Mode to Warm Editorial Paper on the beat drop. | **Radial Iris Circle Wipe** (`clip-path: circle()`) |
+| **2** | **Introducing a Founder, CEO, or Key Protagonist**<br>*"Deepinder Goyal wasn't just a CEO—he was building an empire."* | **`FounderEmpireOrbitRig`** (Vol 1, Rig 2) | Puts a human face at the center of the story while the 3D depth-sorted orbit ring (`z < 0` behind shoulders, `z >= 0` in front of chest) visually proves they command an entire ecosystem. | **Zoom-In Match Cut** into the chest emblem (`CoinFlipRadialDialRig`) |
+| **3** | **Revealing a Crisis, Scandal, Secret Deal, or Conspiracy**<br>*"Behind closed doors, cash was running out—and a rescue deal was being wired."* | **`RedThreadEvidenceBoardRig`** (Vol 2, Rig 1 — *AEffecto Vox Style*) | The tactile corkboard, masking-taped monochrome Polaroids, red pushpins, self-drawing red yarn web, tilted Dymo label (`FOUNDER & CEO`), red marker loop, and window-blind shadows trigger an instant investigative detective atmosphere. | **5-Blade Mechanical Shutter Wipe** (`ShutterSliceWipeTransition`) |
+| **4** | **Proving a Claim via Search Queries, Wikipedia, or SEC/BSE Filings**<br>*"Look at the official filing / If you search their unit economics..."* | **`VoxScreenRecording3DBrowser`** (Vol 2, Rig 2 — *Motion Nations Style*) OR **`NewspaperMicrofilmHighlighter`** (Vol 1, Rig 5) | Typing the exact query into a 3D-tilted Google Search bar with live autocomplete and flipping in 3D space into a yellow-highlighted + red-pen-circled article makes dry facts feel like undeniable forensic proof. | **3D Perspective Card Flip** (`rotateY`) |
+| **5** | **Mapping a Parent Company & Its Subsidiaries / Cash Flows**<br>*"Eternal now operates four interlocking engines: Blinkit, Zomato, Hyperpure..."* | **`MagnatesFlowchartAndOrbitBadgeRig`** (Vol 2, Rig 3 — *Vane Motion Style*) OR **`CoinFlipRadialDialRig`** (Vol 1, Rig 3) | The continuously spinning circular `<textPath>` badge anchors the parent empire at the top while 90-degree rounded-elbow orthogonal pipes visually route capital and data into 3D beveled subsidiary cards below. | **Horizontal Whip-Pan** |
+| **6** | **Walking Through a Multi-Year Historical Timeline**<br>*"From 2013 kirana delivery, to the 2018 SoftBank burn, to the 2021 pivot..."* | **`ThreeDCameraTimelineCorridor`** (Vol 2, Rig 4 — *ColdFusion Style*) | Instead of a flat 2D horizontal line, flying the camera straight down a 3D Z-axis corridor (`translate3d(x, y, -relZ)`) past glowing year portals (`2013 -> 2018 -> 2021 -> 2026`) makes history feel like physical time travel. | **Portal Fly-Through** (final year card fills frame) |
+| **7** | **Explaining Geography, Dark Store Grids, or Supply Chains**<br>*"By placing micro-warehouses every 1.5 km across dense neighborhoods..."* | **`Isometric3DCameraMapFlyover`** (Vol 1, Rig 6 — *Johnny Harris Style*) | Tilting the map plane at `rotateX(58deg)` with vertical laser pins, concentric shockwave rings, and parabolic delivery arcs turns abstract logistics into a tactical war-room map. | **Geometric Match-Cut** (`MatchCutMorphTransition`) |
+| **8** | **Synthesizing 4–5 Operating Metrics or Unit Economics at Once**<br>*"By FY26, all five levers—orders, picking speed, AOV, stores, and share—locked in."* | **`AppleBentoGridShowcaseRig`** (Vol 2, Rig 5 — *Apple Keynote Style*) | Prevents cognitive overload: all 5 glassmorphic cards spring into a clean architectural grid while an `ACTIVE FOCUS` spotlight wave (`scale(1.025)` + glowing border) tours each card one by one as the narrator names it. | **Liquid Bezier Curtain Wave** |
+| **9** | **Head-to-Head Competitor Showdown / Market Share War**<br>*"It came down to a brutal two-way battle: Blinkit at 46% versus Zepto at 32%."* | **`SplitScreenVersusAndCollageRig`** (Vol 2, Rig 6) | Opposing diagonal polygons (`clipPath: polygon(0 0, 56% 0, 44% 100%, 0 100%)`) slamming together around a spring-loaded `VS` badge create visceral competitive tension. | **Liquid Bezier Wave Wipe** into **12fps Stop-Motion Collage** |
+| **10** | **Climax Valuation, Revenue Surge, or Hyper-Growth Counter**<br>*"Annualized Gross Order Value rocketed past ₹37,779 Crore..."* | **`KineticSlotMachineOdometer`** (Vol 1, Rig 7) | Vertical rolling digit barrels with velocity-proportional Gaussian motion blur (`feGaussianBlur`) convey explosive financial momentum far better than a static number. | **5-Blade Shutter Wipe** or **Iris Close** |
+
+---
+
+## PART II: VOLUME 1 RIGS (`src/components/blinkit/FeaturedTransitions.tsx`)
+
+### 1. Ball & Tapered Line Spline Transition (`BallSplineCometTransition`)
 **Reference**: *Motion Nations (`7LW5mRTvNcY` @ `00:10s` — Minimal Line & Ball Animation)*
-
-### Mathematical Formulation
-To animate a ball along a curved path with a comet tail that stretches during high acceleration and shrinks to zero when the ball stops:
-
-1. **Arc-Length Parameterization**:
-   Build a 120-sample lookup table of cumulative Euclidean chord lengths along waypoints $\mathbf{P}_0, \dots, \mathbf{P}_m$:
-   ```ts
-   const SPLINE = buildArcLengthSpline(WAYPOINTS, 120);
-   ```
-2. **Staggered Head & Tail Easing**:
-   Evaluate the head position $s_{\text{head}}(t)$ with a fast-attack curve `(0.16, 1.0, 0.3, 1.0)` and the tail position $s_{\text{tail}}(t)$ with a delayed, slower-attack curve `(0.4, 0.0, 0.2, 1.0)`:
-   ```ts
-   const sHead = cubicBezier(windowProgress(localT, t0, dur), 0.16, 1, 0.3, 1);
-   const sTail = cubicBezier(windowProgress(localT, t0 + 0.12, dur), 0.4, 0, 0.2, 1);
-   ```
-3. **Tapered Ribbon Subdivision**:
-   Subdivide $[s_{\text{tail}}, s_{\text{head}}]$ into $M = 28$ micro-segments. For segment $k \in \{1\dots M\}$, compute fraction $f = k / M$ and set:
-   - Stroke Width: $w_k = f^{1.55} \cdot 7.5\text{ px}$
-   - Opacity: $\alpha_k = f^{1.25}$
-4. **Laser Text Wipe & Radial Iris World Flip**:
-   - As the ball sweeps horizontally from $x = 420$ to $x = 1520$, unmask the centered headline via `clipPath: inset(0 ${(1 - textSweep) * 100}% 0 0)`.
-   - When the ball returns to $(960, 540)$, expand the light-mode layer via `clipPath: circle(${irisRadius}px at 960px 540px)`.
-
----
-
-## 2. Founder Empire 3D Depth-Sorted Orbit Rig (`FounderEmpireOrbitRig`)
-**Reference**: *Pooya Taher (`DLND-0I2FmM` — Viral Reels Breakdown)*
-
-### Mathematical Formulation
-To make glowing 3D spheres orbit **around** a 2D cutout person (passing behind their shoulders and in front of their chest) without WebGL z-fighting:
-
-1. **Parametric 3D Ellipse**:
-   For $N = 6$ nodes at angle $\theta_k(t) = \omega t + \frac{2\pi k}{N}$:
-   ```ts
-   const x = Math.cos(angle) * 310;
-   const y = Math.sin(angle) * 82;
-   const z = Math.sin(angle); // -1 = behind founder, +1 = in front of founder
-   const scale = lerp(0.62, 1.28, (z + 1) * 0.5);
-   ```
-2. **Two-Pass Painter's Algorithm**:
-   - **Pass 1 (Behind Cutout)**: Render the top half of the ellipse (`A 310 82 0 0 1`) and all nodes with `z < 0` with `filter: blur(3px)` and `opacity: 0.55`.
-   - **Pass 2 (Middle Layer)**: Render the monochrome founder `<img>` rising via `springODE(dt, 18, 0.72).value`.
-   - **Pass 3 (Front of Cutout)**: Render the bottom half of the ellipse (`A 310 82 0 0 0`) and all nodes with `z >= 0` at full sharpness and larger scale.
-
----
-
-## 3. 3D Extruded Coin-Flip & Radial Perimeter Dial (`CoinFlipRadialDialRig`)
-**Reference**: *Pooya Taher (`DLND-0I2FmM` Part 2)*
-
-- A central circular medallion flips $180^\circ$ every $0.45\text{ s}$ using `perspective(1000px) rotateY(theta)` with multi-layer `box-shadow` simulating 3D coin thickness (`-14px 0 0 #e4e4e7`).
-- Around the coin, a semi-circular SVG gauge (`M -320 40 A 320 320 0 1 1 320 40`) progressively draws its stroke via `strokeDashoffset` while perimeter brand labels placed at polar angles $\phi_i \in [-155^\circ, -25^\circ]$ scale up and turn ink-black as the active index reaches them.
-
----
-
-## 4. Geometric Match-Cut Morph Transition (`MatchCutMorphTransition`)
-**Reference**: *Vox / Johnny Harris Signature Transitions*
-
-- Instead of a hard cut or generic fade, keep a **shared hero SVG circle** mounted at the exact center $(960, 540)$ across both scenes.
-- As `morph = cubicBezier(windowProgress(localT, 1.5, 0.85), 0.22, 1, 0.36, 1)` progresses from $0 \to 1$:
-  - Scene A's light background fades out while zooming in (`scale(1 -> 1.15)`).
-  - Scene B's dark navy background fades in while zooming settle (`scale(0.88 -> 1.0)`).
-  - The central ring's `strokeWidth` morphs from `36px` (Donut Chart) to `8px` (Radar Reticle), its `strokeDasharray` shifts from `"480 1040"` to `"80 40 80 40 80 40"`, and concentric radar pulse rings + crosshairs emerge inside it.
-
----
-
-## 5. 3D Archival Newspaper & Multiply Highlighter (`NewspaperMicrofilmHighlighter`)
-**Reference**: *MagnatesMedia / Vox Investigative Press Rigs*
-
-- Tilt the broadsheet card in 3D space:
+- **Arc-Length Parameterization**: `buildArcLengthSpline(WAYPOINTS, 120)` builds a cumulative chord-length table so velocity depends purely on our Newton-Raphson easing curve.
+- **Staggered Head & Tail Easing**:
   ```ts
-  transform: `perspective(1300px) rotateX(${lerp(28, 11, camIn)}deg) rotateY(${lerp(-22, -7, camIn)}deg) rotateZ(${lerp(-6, -1.5, camIn)}deg) scale(${lerp(0.84, 1.06, camIn)})`
+  const sHead = cubicBezier(windowProgress(localT, t0, dur), 0.16, 1, 0.3, 1);
+  const sTail = cubicBezier(windowProgress(localT, t0 + 0.12, dur), 0.4, 0, 0.2, 1);
   ```
-- Rack focus from `blur(9px)` to `0px` over the first `0.65s`.
-- Sweep a `<span className="bg-[#fde047]" style={{ width: `${highlightSweep * 100}%`, mixBlendMode: "multiply" }} />` across the key quote so the serif typography remains crisp underneath the translucent yellow ink.
+- **Tapered Ribbon Subdivision**: Subdivide $[s_{\text{tail}}, s_{\text{head}}]$ into $M = 28$ segments where stroke width tapers as $w_k = (k/M)^{1.55} \cdot 7.5\text{ px}$ and opacity tapers as $\alpha_k = (k/M)^{1.25}$.
+- **Laser Text Wipe & Radial Iris World Flip**: Unmasks headline via `clipPath: inset(0 ${(1 - textSweep) * 100}% 0 0)` and flips Dark $\to$ Light Paper Mode via `clipPath: circle(${irisRadius}px at 960px 540px)`.
 
----
+### 2. Founder Empire 3D Depth-Sorted Orbit Rig (`FounderEmpireOrbitRig`)
+**Reference**: *Pooya Taher (`DLND-0I2FmM` — Viral Reels Breakdown Part 1)*
+- **Two-Pass Painter's Algorithm**:
+  - For $N = 6$ nodes at angle $\theta_k(t) = \omega t + \frac{2\pi k}{N}$, compute $z_k = \sin(\theta_k) \in [-1, 1]$.
+  - Render nodes with $z_k < 0$ in an SVG layer **behind** the monochrome founder cutout `<img>` (`blur(3px)`), and nodes with $z_k \ge 0$ in an SVG layer **in front of** the founder cutout at full sharpness.
 
-## 6. Isometric 3D Camera Map Flyover (`Isometric3DCameraMapFlyover`)
+### 3. 3D Extruded Coin-Flip & Radial Perimeter Dial (`CoinFlipRadialDialRig`)
+**Reference**: *Pooya Taher (`DLND-0I2FmM` — Part 2)*
+- Central medallion flips $180^\circ$ every $0.45\text{ s}$ using `perspective(1000px) rotateY(theta)` with extruded edge shadows while a semi-circular perimeter dial lights up subsidiary brands (`Zomato`, `Blinkit`, `Hyperpure`, `District`).
+
+### 4. Geometric Match-Cut Morph Transition (`MatchCutMorphTransition`)
+**Reference**: *Vox / Johnny Harris Signature Transitions*
+- A shared central SVG circle morphs continuously across a scene cut—transforming its `strokeWidth` (`36px -> 8px`), `strokeDasharray`, and background polarity from a **46% Market Share Donut Chart** on warm paper into a **1.5 km Tactical Dark Store Radar Reticle** on dark navy.
+
+### 5. 3D Archival Newspaper & Multiply Highlighter (`NewspaperMicrofilmHighlighter`)
+**Reference**: *MagnatesMedia / Vox Investigative Press Rigs*
+- 3D tilted financial broadsheet (`perspective(1300px) rotateX/Y/Z`) racks focus from `blur(9px) -> 0px` while a translucent yellow marker (`mix-blend-mode: multiply`) sweeps across the critical quote.
+
+### 6. Isometric 3D Camera Map Flyover (`Isometric3DCameraMapFlyover`)
 **Reference**: *Johnny Harris / fern Geo-Telemetry Rigs*
+- Tilted $1920\times 1080$ coordinate plane (`perspective(1200px) rotateX(58deg) rotateZ(camRotZ)`) with vertical laser pins, concentric radar shockwaves, and glowing parabolic supply-chain arcs.
 
-- Tilt a $1920\times 1080$ coordinate grid plane at `perspective(1200px) rotateX(58deg) rotateZ(camRotZ)` and pan via `translate3d(camX, camY, 0)`.
-- Draw parabolic supply-chain arcs (`M 480 620 Q 720 260 960 460 T 1390 340`) using `strokeDashoffset` and place pulsing radar rings + floating callout billboards at each hub coordinate.
+### 7. Kinetic Slot-Machine Odometer & Diagonal Shutter Wipe (`KineticSlotMachineOdometer`)
+- Vertical digit barrels (`0–9` twice) spinning with instantaneous vertical velocity blur $\sigma_y = \text{clamp}(|\dot{y}| \cdot 3.5, 0, 12\text{ px})$, wiped by a 5-blade staggered mechanical shutter (`b * 0.06s` delay).
 
 ---
 
-## 7. Kinetic Slot-Machine Odometer & Diagonal Shutter Wipe
-- **Odometer**: Each digit column renders a vertical strip of 20 digits (`0–9` twice) translated by `translate3d(0, -currentPos * 132px, 0)` with vertical motion blur $\sigma_y = \text{clamp}(|\dot{y}| \cdot 3.5, 0, 12\text{ px})$.
-- **Shutter Wipe**: 5 vertical/diagonal blades (`width: 20.2%`, `left: b * 20%`) staggered by `b * 0.06s` slam shut to display a central chapter title card before slicing open into the next act.
+## PART III: VOLUME 2 RIGS (`src/components/blinkit/FeaturedTransitionsVol2.tsx`)
+
+### 8. Vox Red-Thread Detective Corkboard (`RedThreadEvidenceBoardRig`)
+**Reference**: *AEffecto (`Ii3MVHwECys` — How To Edit Viral Documentaries Like VOX)*
+- **Visual Elements**:
+  - 4 corner monochrome archival Polaroids with translucent masking-tape strips (`bg-amber-100/80 rotate-2`) and white logo pedestals.
+  - Self-drawing crimson yarn web (`strokeDashoffset`) anchored by red pushpins (`#ef4444`).
+  - Central hero Polaroid (`ALBINDER DHINDSA`) stamped with a tilted black Dymo embossed label (`FOUNDER & CEO`, `rotate(-12deg)`) and circled by a self-drawing hand-drawn red marker spiral loop.
+  - Diagonal volumetric window-blind shadow bars (`repeating-linear-gradient(115deg, ...)`).
+
+### 9. Vox 3D Search Bar Autocomplete $\rightarrow$ 3D Article Highlight & Red Pen (`VoxScreenRecording3DBrowser`)
+**Reference**: *Motion Nations (`L-fVQ9cG2R8` — Vox Style Screen Recording Animation)*
+- **Phase A (`0.0s – 1.65s`)**: 3D tilted Google Search bar (`perspective(1100px) rotateX(14deg) rotateY(22deg)`) typing `"blinkit 10 minute delivery unit economics"` character-by-character with live autocomplete dropdown suggestions.
+- **Phase B (`1.65s – 4.0s`)**: Smooth 3D perspective flip into an encyclopedia/filing browser card where two sequential yellow highlighter sweeps (`#fef08a`) and a hand-drawn red ink oval isolate `"46% of India's quick-commerce market"`.
+
+### 10. MagnatesMedia Orbiting Circular Text Badge + Orthogonal Flowchart (`MagnatesFlowchartAndOrbitBadgeRig`)
+**Reference**: *Vane Motion (`kuX_HBTjTmg` — How to Edit Documentary Style Videos Like MagnatesMedia)*
+- **Circular `<textPath>` Badge**: An SVG `<path id="orbitTextPath" d="M 140,140 m -112,0 a 112,112 0 1,1 224,0 a 112,112 0 1,1 -224,0" />` rotates continuously at $\omega = 38^\circ/\text{s}$ around the central Eternal emblem.
+- **90-Degree Rounded-Elbow Flowchart**: Orthogonal SVG paths (`M 960 360 L 960 540 Q 960 570 930 570 L 450 570 Q 420 570 420 600 L 420 710`) draw downward into 3D subsidiary cards (`BLINKIT`, `ZOMATO`, `HYPERPURE`).
+
+### 11. 3D Z-Space Camera Timeline Corridor (`ThreeDCameraTimelineCorridor`)
+**Reference**: *ColdFusion / MagnatesMedia 3D Historical Fly-Throughs*
+- Milestone portals (`2013`, `2018`, `2021`, `2026`) are placed at true 3D Z-depths (`zPos = 150, 700, 1250, 1800`) alternating left and right (`xOffset = ±340px`, `yOffset = ±85px`) inside a `perspective: 900px` viewport.
+- As `camZ` advances from `-150` to `1750`, each portal's relative depth `relZ = m.zPos - camZ` drives `translate3d(xOffset, yOffset, -relZ)` and realistic depth-of-field blur $\sigma_{\text{DOF}} = \text{clamp}(|\text{relZ} - 180| / 360, 0, 8\text{ px})$.
+
+### 12. Apple Keynote Modular Bento Grid + Spotlight Wave (`AppleBentoGridShowcaseRig`)
+**Reference**: *Apple Keynote / Cleo Abram Multi-Metric Bento Layouts*
+- A 12-column, 2-row CSS Grid of 5 asymmetrical glassmorphic cards springs into view with staggered harmonic delays (`idx * 0.10s`).
+- Starting at `localT = 0.8s`, `activeFocusIdx = Math.floor((localT - 0.8) / 0.65)` sequentially highlights each card with an `ACTIVE FOCUS` pill, `scale(1.025)`, and a brand-colored neon border + glow.
+
+### 13. Diagonal Split-Screen Versus $\rightarrow$ Liquid Bezier Wave Wipe $\rightarrow$ 12fps Stop-Motion Collage (`SplitScreenVersusAndCollageRig`)
+**Reference**: *Vox / Johnny Harris Mixed-Media Stop-Motion & Liquid Wipes*
+- **Part A (`0.0s – 1.85s`)**: Opposing diagonal polygons (`polygon(0 0, 56% 0, 44% 100%, 0 100%)` vs. `polygon(56% 0, 100% 0, 100% 100%, 44% 100%)`) clash with a spring-loaded central `VS` badge.
+- **Part B (`1.85s – 4.0s`)**: A **Liquid Bezier Curtain Wave** (`M 0 yEdge Q 960 yBelly 1920 yEdge L 1920 1080 L 0 1080 Z` where `yBelly` leads `yEdge` via `pow(w, 0.7)` vs. `pow(w, 1.3)`) wipes upward to reveal a **12 fps `posterizeTime(localT, 12)` Stop-Motion Torn-Paper Cutout Card**.
